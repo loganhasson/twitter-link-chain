@@ -2,12 +2,36 @@
 
 require_relative '../environment'
 
-start_tweet = Tweet.new("https://twitter.com/aviflombaum/status/433591949921366016", "aviflombaum", "https://twitter.com/_stevennunez/status/433591245471223808", 433591949921366016)
-chain = TwitterLinkChain.new(start_tweet)
+# start_tweet_hash = TwitterLinkChain.get_first_tweet_hash("https://twitter.com/aviflombaum/status/433591949921366016")
+# start_tweet = Tweet.new(start_tweet_hash[:url],
+#                         start_tweet_hash[:username],
+#                         start_tweet_hash[:linked_url],
+#                         start_tweet_hash[:id],
+#                         true)
 
-chain.map_graph
+# chain = TwitterLinkChain.new(start_tweet)
+
+# g = chain.map_graph
+
+# binding.pry
+# start_tweet = Tweet.new("https://twitter.com/aviflombaum/status/433591949921366016", "aviflombaum", "https://twitter.com/_stevennunez/status/433591245471223808", 433591949921366016)
+# chain = TwitterLinkChain.new(start_tweet)
+
+# chain.map_graph
 
 # TwitterLinkChain::CLIENT.search("https://twitter.com/aviflombaum/status/433591949921366016").map do |tweet|
 #   binding.pry
 #   puts tweet.user.screen_name
 # end
+
+# TwitterLinkChain::CLIENT.search(433591245471223808).each do |t|
+#   binding.pry
+# end
+
+# t = TwitterLinkChain::CLIENT.status(433591245471223808)
+# binding.pry
+
+# t = TwitterLinkChain::CLIENT.status(433591245471223808)
+# l = TwitterLinkChain::CLIENT.status(433748884717047808)
+# tweet.place
+# binding.pry
