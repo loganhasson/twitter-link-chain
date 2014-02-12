@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    atomic (1.1.14)
+    buftok (0.2.0)
+    coderay (1.1.0)
+    equalizer (0.0.9)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    http (0.5.0)
+      http_parser.rb
+    http_parser.rb (0.6.0)
+    json (1.8.1)
+    memoizable (0.4.0)
+      thread_safe (~> 0.1.3)
+    method_source (0.8.2)
+    multipart-post (2.0.0)
+    naught (1.0.0)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    simple_oauth (0.2.0)
+    slop (3.4.7)
+    thread_safe (0.1.3)
+      atomic
+    twitter (5.7.1)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.9)
+      faraday (~> 0.9.0)
+      http (~> 0.5.0)
+      http_parser.rb (~> 0.6.0)
+      json (~> 1.8)
+      memoizable (~> 0.4.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  twitter

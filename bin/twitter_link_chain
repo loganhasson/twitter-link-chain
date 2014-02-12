@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require_relative '../environment'
+
+start_tweet = Tweet.new("https://twitter.com/aviflombaum/status/433591949921366016", "aviflombaum", "https://twitter.com/_stevennunez/status/433591245471223808", 433591949921366016)
+chain = TwitterLinkChain.new(start_tweet)
+
+chain.map_graph
+
+# TwitterLinkChain::CLIENT.search("https://twitter.com/aviflombaum/status/433591949921366016").map do |tweet|
+#   binding.pry
+#   puts tweet.user.screen_name
+# end
