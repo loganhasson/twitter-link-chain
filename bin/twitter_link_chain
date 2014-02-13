@@ -16,7 +16,7 @@ ensure
   chain.display_graph(chain.traveled_path)
 end
 
-binding.pry
+# binding.pry
 # start_tweet = Tweet.new("https://twitter.com/aviflombaum/status/433591949921366016", "aviflombaum", "https://twitter.com/_stevennunez/status/433591245471223808", 433591949921366016)
 # chain = TwitterLinkChain.new(start_tweet)
 
