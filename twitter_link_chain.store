@@ -1,0 +1,4122 @@
+---
+stored: true
+current_tweet: &52 !ruby/object:Tweet
+  username: lachlan
+  id: 433340596057415680
+  location: 
+  created_at: 2014-02-11 15:43:43.000000000 -05:00
+  url: https://twitter.com/lachlan/status/433340596057415680
+  parents:
+  - &49 !ruby/object:Tweet
+    username: Heminator
+    id: 433340459239235585
+    location: 
+    created_at: 2014-02-11 15:43:11.000000000 -05:00
+    url: https://twitter.com/Heminator/status/433340459239235585
+    parents:
+    - &47 !ruby/object:Tweet
+      username: baseballcrank
+      id: 433339338386993154
+      location: 
+      created_at: 2014-02-11 15:38:43.000000000 -05:00
+      url: https://twitter.com/baseballcrank/status/433339338386993154
+      parents:
+      - &43 !ruby/object:Tweet
+        username: lachlan
+        id: 433339253871742976
+        location: 
+        created_at: 2014-02-11 15:38:23.000000000 -05:00
+        url: https://twitter.com/lachlan/status/433339253871742976
+        parents:
+        - &40 !ruby/object:Tweet
+          username: BenHowe
+          id: 433339087320133633
+          location: 
+          created_at: 2014-02-11 15:37:44.000000000 -05:00
+          url: https://twitter.com/BenHowe/status/433339087320133633
+          parents:
+          - &37 !ruby/object:Tweet
+            username: fuegote
+            id: 433327431378694145
+            location: 
+            created_at: 2014-02-11 14:51:25.000000000 -05:00
+            url: https://twitter.com/fuegote/status/433327431378694145
+            parents:
+            - &34 !ruby/object:Tweet
+              username: AceofSpadesHQ
+              id: 433326472070057984
+              location: 
+              created_at: 2014-02-11 14:47:36.000000000 -05:00
+              url: https://twitter.com/AceofSpadesHQ/status/433326472070057984
+              parents:
+              - &33 !ruby/object:Tweet
+                username: BenK84
+                id: 433259921409196032
+                location: 
+                created_at: 2014-02-11 10:23:09.000000000 -05:00
+                url: https://twitter.com/BenK84/status/433259921409196032
+                parents:
+                - &29 !ruby/object:Tweet
+                  username: RBPundit
+                  id: 433259587139940352
+                  location: 
+                  created_at: 2014-02-11 10:21:49.000000000 -05:00
+                  url: https://twitter.com/RBPundit/status/433259587139940352
+                  parents:
+                  - &26 !ruby/object:Tweet
+                    username: Neal_Dewing
+                    id: 433259154980220929
+                    location: 
+                    created_at: 2014-02-11 10:20:06.000000000 -05:00
+                    url: https://twitter.com/Neal_Dewing/status/433259154980220929
+                    parents:
+                    - &25 !ruby/object:Tweet
+                      username: moelane
+                      id: 433252368189497344
+                      location: 
+                      created_at: 2014-02-11 09:53:08.000000000 -05:00
+                      url: https://twitter.com/moelane/status/433252368189497344
+                      parents:
+                      - &19 !ruby/object:Tweet
+                        username: Popehat
+                        id: 433251577726398464
+                        location: 
+                        created_at: 2014-02-11 09:50:00.000000000 -05:00
+                        url: https://twitter.com/Popehat/status/433251577726398464
+                        parents:
+                        - &18 !ruby/object:Tweet
+                          username: LeonHWolf
+                          id: 433250987801718784
+                          location: 
+                          created_at: 2014-02-11 09:47:39.000000000 -05:00
+                          url: https://twitter.com/LeonHWolf/status/433250987801718784
+                          parents:
+                          - &17 !ruby/object:Tweet
+                            username: redsteeze
+                            id: 433250487404879872
+                            location: 
+                            created_at: 2014-02-11 09:45:40.000000000 -05:00
+                            url: https://twitter.com/redsteeze/status/433250487404879872
+                            parents:
+                            - &1 !ruby/object:Tweet
+                              username: BenHowe
+                              id: 433249756006346752
+                              location: 
+                              created_at: 2014-02-11 09:42:45.000000000 -05:00
+                              url: https://twitter.com/BenHowe/status/433249756006346752
+                              parents: []
+                              children:
+                              - !ruby/object:Tweet
+                                username: rubedar07
+                                id: 433775063238991872
+                                location: 
+                                created_at: 2014-02-12 20:30:08.000000000 -05:00
+                                url: https://twitter.com/rubedar07/status/433775063238991872
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: ssms54
+                                id: 433772893730635776
+                                location: 
+                                created_at: 2014-02-12 20:21:31.000000000 -05:00
+                                url: https://twitter.com/ssms54/status/433772893730635776
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: Leon_BM
+                                id: 433766495839985665
+                                location: 
+                                created_at: 2014-02-12 19:56:06.000000000 -05:00
+                                url: https://twitter.com/Leon_BM/status/433766495839985665
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: IceW
+                                id: 433758073870503936
+                                location: 
+                                created_at: 2014-02-12 19:22:38.000000000 -05:00
+                                url: https://twitter.com/IceW/status/433758073870503936
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: ClaudioAlbertin
+                                id: 433747244739993600
+                                location: 
+                                created_at: 2014-02-12 18:39:36.000000000 -05:00
+                                url: https://twitter.com/ClaudioAlbertin/status/433747244739993600
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: lidiyaloves_x
+                                id: 433743346301804544
+                                location: 
+                                created_at: 2014-02-12 18:24:06.000000000 -05:00
+                                url: https://twitter.com/lidiyaloves_x/status/433743346301804544
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: TristanSekeris
+                                id: 433733823327518720
+                                location: 
+                                created_at: 2014-02-12 17:46:16.000000000 -05:00
+                                url: https://twitter.com/TristanSekeris/status/433733823327518720
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: UnMesero
+                                id: 433719196980359169
+                                location: 
+                                created_at: 2014-02-12 16:48:09.000000000 -05:00
+                                url: https://twitter.com/UnMesero/status/433719196980359169
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: Philaios
+                                id: 433717670295265280
+                                location: 
+                                created_at: 2014-02-12 16:42:05.000000000 -05:00
+                                url: https://twitter.com/Philaios/status/433717670295265280
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: lys0201roy
+                                id: 433716957536194560
+                                location: 
+                                created_at: 2014-02-12 16:39:15.000000000 -05:00
+                                url: https://twitter.com/lys0201roy/status/433716957536194560
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: Joffreyziell
+                                id: 433716382107435008
+                                location: 
+                                created_at: 2014-02-12 16:36:58.000000000 -05:00
+                                url: https://twitter.com/Joffreyziell/status/433716382107435008
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: romandope
+                                id: 433710060272111618
+                                location: 
+                                created_at: 2014-02-12 16:11:50.000000000 -05:00
+                                url: https://twitter.com/romandope/status/433710060272111618
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: d0od
+                                id: 433698845588197377
+                                location: 
+                                created_at: 2014-02-12 15:27:17.000000000 -05:00
+                                url: https://twitter.com/d0od/status/433698845588197377
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: edgarazado
+                                id: 433694573932871680
+                                location: 
+                                created_at: 2014-02-12 15:10:18.000000000 -05:00
+                                url: https://twitter.com/edgarazado/status/433694573932871680
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: malejandrou
+                                id: 433693566389723136
+                                location: 
+                                created_at: 2014-02-12 15:06:18.000000000 -05:00
+                                url: https://twitter.com/malejandrou/status/433693566389723136
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: hagasbar
+                                id: 433692767491854336
+                                location: 
+                                created_at: 2014-02-12 15:03:08.000000000 -05:00
+                                url: https://twitter.com/hagasbar/status/433692767491854336
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: SamuelDam
+                                id: 433689099950882816
+                                location: 
+                                created_at: 2014-02-12 14:48:33.000000000 -05:00
+                                url: https://twitter.com/SamuelDam/status/433689099950882816
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: SaraRCookie
+                                id: 433687766162219008
+                                location: 
+                                created_at: 2014-02-12 14:43:15.000000000 -05:00
+                                url: https://twitter.com/SaraRCookie/status/433687766162219008
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: sixdll
+                                id: 433686448022495232
+                                location: 
+                                created_at: 2014-02-12 14:38:01.000000000 -05:00
+                                url: https://twitter.com/sixdll/status/433686448022495232
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: DeDaanmans
+                                id: 433677517896310784
+                                location: 
+                                created_at: 2014-02-12 14:02:32.000000000 -05:00
+                                url: https://twitter.com/DeDaanmans/status/433677517896310784
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: SadHazelnut
+                                id: 433676752024772608
+                                location: 
+                                created_at: 2014-02-12 13:59:29.000000000 -05:00
+                                url: https://twitter.com/SadHazelnut/status/433676752024772608
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: gvssr
+                                id: 433676206274510848
+                                location: 
+                                created_at: 2014-02-12 13:57:19.000000000 -05:00
+                                url: https://twitter.com/gvssr/status/433676206274510848
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: MemoryOnSmell
+                                id: 433669345894334465
+                                location: 
+                                created_at: 2014-02-12 13:30:03.000000000 -05:00
+                                url: https://twitter.com/MemoryOnSmell/status/433669345894334465
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: lelek_kofe
+                                id: 433653594118582272
+                                location: 
+                                created_at: 2014-02-12 12:27:28.000000000 -05:00
+                                url: https://twitter.com/lelek_kofe/status/433653594118582272
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: macsnider
+                                id: 433652932295544832
+                                location: 
+                                created_at: 2014-02-12 12:24:50.000000000 -05:00
+                                url: https://twitter.com/macsnider/status/433652932295544832
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: Morozov43
+                                id: 433646656970428419
+                                location: 
+                                created_at: 2014-02-12 11:59:54.000000000 -05:00
+                                url: https://twitter.com/Morozov43/status/433646656970428419
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: davidtgriches
+                                id: 433646062796939264
+                                location: 
+                                created_at: 2014-02-12 11:57:32.000000000 -05:00
+                                url: https://twitter.com/davidtgriches/status/433646062796939264
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: sononchalance
+                                id: 433643558365458433
+                                location: 
+                                created_at: 2014-02-12 11:47:35.000000000 -05:00
+                                url: https://twitter.com/sononchalance/status/433643558365458433
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: InnaShidlovskay
+                                id: 433640714996842496
+                                location: 
+                                created_at: 2014-02-12 11:36:17.000000000 -05:00
+                                url: https://twitter.com/InnaShidlovskay/status/433640714996842496
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: peermohamed
+                                id: 433632079939502080
+                                location: 
+                                created_at: 2014-02-12 11:01:59.000000000 -05:00
+                                url: https://twitter.com/peermohamed/status/433632079939502080
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: apiyron
+                                id: 433630722675720192
+                                location: 
+                                created_at: 2014-02-12 10:56:35.000000000 -05:00
+                                url: https://twitter.com/apiyron/status/433630722675720192
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: n_ismangulov
+                                id: 433627149971365890
+                                location: 
+                                created_at: 2014-02-12 10:42:23.000000000 -05:00
+                                url: https://twitter.com/n_ismangulov/status/433627149971365890
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: sarahmedetth
+                                id: 433626020064002048
+                                location: 
+                                created_at: 2014-02-12 10:37:54.000000000 -05:00
+                                url: https://twitter.com/sarahmedetth/status/433626020064002048
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: RubenBehaeghe
+                                id: 433621511572701184
+                                location: 
+                                created_at: 2014-02-12 10:19:59.000000000 -05:00
+                                url: https://twitter.com/RubenBehaeghe/status/433621511572701184
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: SeelenKrieg
+                                id: 433617193067364352
+                                location: 
+                                created_at: 2014-02-12 10:02:49.000000000 -05:00
+                                url: https://twitter.com/SeelenKrieg/status/433617193067364352
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: Cybnext
+                                id: 433614648017833984
+                                location: 
+                                created_at: 2014-02-12 09:52:42.000000000 -05:00
+                                url: https://twitter.com/Cybnext/status/433614648017833984
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: ZegertvdLinde
+                                id: 433613691289079808
+                                location: 
+                                created_at: 2014-02-12 09:48:54.000000000 -05:00
+                                url: https://twitter.com/ZegertvdLinde/status/433613691289079808
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: ghvanderweg
+                                id: 433612875781791744
+                                location: 
+                                created_at: 2014-02-12 09:45:40.000000000 -05:00
+                                url: https://twitter.com/ghvanderweg/status/433612875781791744
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: peremenov
+                                id: 433600334767079424
+                                location: 
+                                created_at: 2014-02-12 08:55:50.000000000 -05:00
+                                url: https://twitter.com/peremenov/status/433600334767079424
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: ap00rv
+                                id: 433589702914875392
+                                location: 
+                                created_at: 2014-02-12 08:13:35.000000000 -05:00
+                                url: https://twitter.com/ap00rv/status/433589702914875392
+                                parents:
+                                - *1
+                                children: []
+                              - &2 !ruby/object:Tweet
+                                username: TVLuke
+                                id: 433585184693178368
+                                location: 
+                                created_at: 2014-02-12 07:55:38.000000000 -05:00
+                                url: https://twitter.com/TVLuke/status/433585184693178368
+                                parents:
+                                - *1
+                                children:
+                                - &3 !ruby/object:Tweet
+                                  username: TVLuke
+                                  id: 433585184693178368
+                                  location: 
+                                  created_at: 2014-02-12 07:55:38.000000000 -05:00
+                                  url: https://twitter.com/TVLuke/status/433585184693178368
+                                  parents:
+                                  - *2
+                                  children:
+                                  - &4 !ruby/object:Tweet
+                                    username: TVLuke
+                                    id: 433585184693178368
+                                    location: 
+                                    created_at: 2014-02-12 07:55:38.000000000 -05:00
+                                    url: https://twitter.com/TVLuke/status/433585184693178368
+                                    parents:
+                                    - *3
+                                    children:
+                                    - &5 !ruby/object:Tweet
+                                      username: TVLuke
+                                      id: 433585184693178368
+                                      location: 
+                                      created_at: 2014-02-12 07:55:38.000000000 -05:00
+                                      url: https://twitter.com/TVLuke/status/433585184693178368
+                                      parents:
+                                      - *4
+                                      children:
+                                      - &6 !ruby/object:Tweet
+                                        username: TVLuke
+                                        id: 433585184693178368
+                                        location: 
+                                        created_at: 2014-02-12 07:55:38.000000000
+                                          -05:00
+                                        url: https://twitter.com/TVLuke/status/433585184693178368
+                                        parents:
+                                        - *5
+                                        children:
+                                        - &7 !ruby/object:Tweet
+                                          username: TVLuke
+                                          id: 433585184693178368
+                                          location: 
+                                          created_at: 2014-02-12 07:55:38.000000000
+                                            -05:00
+                                          url: https://twitter.com/TVLuke/status/433585184693178368
+                                          parents:
+                                          - *6
+                                          children:
+                                          - &8 !ruby/object:Tweet
+                                            username: TVLuke
+                                            id: 433585184693178368
+                                            location: 
+                                            created_at: 2014-02-12 07:55:38.000000000
+                                              -05:00
+                                            url: https://twitter.com/TVLuke/status/433585184693178368
+                                            parents:
+                                            - *7
+                                            children:
+                                            - &9 !ruby/object:Tweet
+                                              username: TVLuke
+                                              id: 433585184693178368
+                                              location: 
+                                              created_at: 2014-02-12 07:55:38.000000000
+                                                -05:00
+                                              url: https://twitter.com/TVLuke/status/433585184693178368
+                                              parents:
+                                              - *8
+                                              children:
+                                              - &10 !ruby/object:Tweet
+                                                username: TVLuke
+                                                id: 433585184693178368
+                                                location: 
+                                                created_at: 2014-02-12 07:55:38.000000000
+                                                  -05:00
+                                                url: https://twitter.com/TVLuke/status/433585184693178368
+                                                parents:
+                                                - *9
+                                                children:
+                                                - &11 !ruby/object:Tweet
+                                                  username: TVLuke
+                                                  id: 433585184693178368
+                                                  location: 
+                                                  created_at: 2014-02-12 07:55:38.000000000
+                                                    -05:00
+                                                  url: https://twitter.com/TVLuke/status/433585184693178368
+                                                  parents:
+                                                  - *10
+                                                  children:
+                                                  - &12 !ruby/object:Tweet
+                                                    username: TVLuke
+                                                    id: 433585184693178368
+                                                    location: 
+                                                    created_at: 2014-02-12 07:55:38.000000000
+                                                      -05:00
+                                                    url: https://twitter.com/TVLuke/status/433585184693178368
+                                                    parents:
+                                                    - *11
+                                                    children:
+                                                    - &13 !ruby/object:Tweet
+                                                      username: TVLuke
+                                                      id: 433585184693178368
+                                                      location: 
+                                                      created_at: 2014-02-12 07:55:38.000000000
+                                                        -05:00
+                                                      url: https://twitter.com/TVLuke/status/433585184693178368
+                                                      parents:
+                                                      - *12
+                                                      children:
+                                                      - &14 !ruby/object:Tweet
+                                                        username: TVLuke
+                                                        id: 433585184693178368
+                                                        location: 
+                                                        created_at: 2014-02-12 07:55:38.000000000
+                                                          -05:00
+                                                        url: https://twitter.com/TVLuke/status/433585184693178368
+                                                        parents:
+                                                        - *13
+                                                        children:
+                                                        - &15 !ruby/object:Tweet
+                                                          username: TVLuke
+                                                          id: 433585184693178368
+                                                          location: 
+                                                          created_at: 2014-02-12 07:55:38.000000000
+                                                            -05:00
+                                                          url: https://twitter.com/TVLuke/status/433585184693178368
+                                                          parents:
+                                                          - *14
+                                                          children:
+                                                          - !ruby/object:Tweet
+                                                            username: TVLuke
+                                                            id: 433585184693178368
+                                                            location: 
+                                                            created_at: 2014-02-12
+                                                              07:55:38.000000000 -05:00
+                                                            url: https://twitter.com/TVLuke/status/433585184693178368
+                                                            parents:
+                                                            - *15
+                                                            children: []
+                              - !ruby/object:Tweet
+                                username: moebile
+                                id: 433580063410229248
+                                location: 
+                                created_at: 2014-02-12 07:35:17.000000000 -05:00
+                                url: https://twitter.com/moebile/status/433580063410229248
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: TorbenSchultz
+                                id: 433576635778871296
+                                location: 
+                                created_at: 2014-02-12 07:21:40.000000000 -05:00
+                                url: https://twitter.com/TorbenSchultz/status/433576635778871296
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: YaManicKill
+                                id: 433571136878551040
+                                location: 
+                                created_at: 2014-02-12 06:59:49.000000000 -05:00
+                                url: https://twitter.com/YaManicKill/status/433571136878551040
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: Ertraeglichkeit
+                                id: 433559972895412225
+                                location: 
+                                created_at: 2014-02-12 06:15:27.000000000 -05:00
+                                url: https://twitter.com/Ertraeglichkeit/status/433559972895412225
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: FBeuster
+                                id: 433554045081767936
+                                location: 
+                                created_at: 2014-02-12 05:51:54.000000000 -05:00
+                                url: https://twitter.com/FBeuster/status/433554045081767936
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: Nepomuk
+                                id: 433553743179567105
+                                location: 
+                                created_at: 2014-02-12 05:50:42.000000000 -05:00
+                                url: https://twitter.com/Nepomuk/status/433553743179567105
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: scoux
+                                id: 433552145011331072
+                                location: 
+                                created_at: 2014-02-12 05:44:21.000000000 -05:00
+                                url: https://twitter.com/scoux/status/433552145011331072
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: honnel
+                                id: 433533159246790658
+                                location: 
+                                created_at: 2014-02-12 04:28:54.000000000 -05:00
+                                url: https://twitter.com/honnel/status/433533159246790658
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: kwasbeb
+                                id: 433532378653261825
+                                location: 
+                                created_at: 2014-02-12 04:25:48.000000000 -05:00
+                                url: https://twitter.com/kwasbeb/status/433532378653261825
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: bigup2dance
+                                id: 433530690701774849
+                                location: 
+                                created_at: 2014-02-12 04:19:05.000000000 -05:00
+                                url: https://twitter.com/bigup2dance/status/433530690701774849
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: matmannion
+                                id: 433530511664091136
+                                location: 
+                                created_at: 2014-02-12 04:18:23.000000000 -05:00
+                                url: https://twitter.com/matmannion/status/433530511664091136
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: sr_rolando
+                                id: 433527103045505024
+                                location: 
+                                created_at: 2014-02-12 04:04:50.000000000 -05:00
+                                url: https://twitter.com/sr_rolando/status/433527103045505024
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: VTPG
+                                id: 433526966801530880
+                                location: 
+                                created_at: 2014-02-12 04:04:18.000000000 -05:00
+                                url: https://twitter.com/VTPG/status/433526966801530880
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: WimpyLion
+                                id: 433523840698703872
+                                location: 
+                                created_at: 2014-02-12 03:51:52.000000000 -05:00
+                                url: https://twitter.com/WimpyLion/status/433523840698703872
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: Dronacharya_
+                                id: 433523614285983744
+                                location: 
+                                created_at: 2014-02-12 03:50:58.000000000 -05:00
+                                url: https://twitter.com/Dronacharya_/status/433523614285983744
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: sufw
+                                id: 433518907584823296
+                                location: 
+                                created_at: 2014-02-12 03:32:16.000000000 -05:00
+                                url: https://twitter.com/sufw/status/433518907584823296
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: AH_Patjay
+                                id: 433517430141231104
+                                location: 
+                                created_at: 2014-02-12 03:26:24.000000000 -05:00
+                                url: https://twitter.com/AH_Patjay/status/433517430141231104
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: ashaolinmonkey
+                                id: 433505380417556480
+                                location: 
+                                created_at: 2014-02-12 02:38:31.000000000 -05:00
+                                url: https://twitter.com/ashaolinmonkey/status/433505380417556480
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: rocky_upadhaya
+                                id: 433496886188576768
+                                location: 
+                                created_at: 2014-02-12 02:04:46.000000000 -05:00
+                                url: https://twitter.com/rocky_upadhaya/status/433496886188576768
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: DTSpawn
+                                id: 433492061551984640
+                                location: 
+                                created_at: 2014-02-12 01:45:36.000000000 -05:00
+                                url: https://twitter.com/DTSpawn/status/433492061551984640
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: kevinchen
+                                id: 433486562735960064
+                                location: 
+                                created_at: 2014-02-12 01:23:45.000000000 -05:00
+                                url: https://twitter.com/kevinchen/status/433486562735960064
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: diaporesis
+                                id: 433481627725864960
+                                location: 
+                                created_at: 2014-02-12 01:04:08.000000000 -05:00
+                                url: https://twitter.com/diaporesis/status/433481627725864960
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: TheChrisGlass
+                                id: 433480785824215040
+                                location: 
+                                created_at: 2014-02-12 01:00:47.000000000 -05:00
+                                url: https://twitter.com/TheChrisGlass/status/433480785824215040
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: gibberishmock
+                                id: 433480644589785088
+                                location: 
+                                created_at: 2014-02-12 01:00:14.000000000 -05:00
+                                url: https://twitter.com/gibberishmock/status/433480644589785088
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: gibberishmock
+                                id: 433480475579916288
+                                location: 
+                                created_at: 2014-02-12 00:59:33.000000000 -05:00
+                                url: https://twitter.com/gibberishmock/status/433480475579916288
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: vipulsatya
+                                id: 433479833348091904
+                                location: 
+                                created_at: 2014-02-12 00:57:00.000000000 -05:00
+                                url: https://twitter.com/vipulsatya/status/433479833348091904
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: winfield
+                                id: 433478833623142401
+                                location: 
+                                created_at: 2014-02-12 00:53:02.000000000 -05:00
+                                url: https://twitter.com/winfield/status/433478833623142401
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: MogKnight
+                                id: 433470119033835520
+                                location: 
+                                created_at: 2014-02-12 00:18:24.000000000 -05:00
+                                url: https://twitter.com/MogKnight/status/433470119033835520
+                                parents:
+                                - *1
+                                children: []
+                              - !ruby/object:Tweet
+                                username: MatlockJAB
+                                id: 433467887878017024
+                                location: 
+                                created_at: 2014-02-12 00:09:32.000000000 -05:00
+                                url: https://twitter.com/MatlockJAB/status/433467887878017024
+                                parents:
+                                - *1
+                                children: []
+                              - &16 !ruby/object:Tweet
+                                username: JDotLeezy
+                                id: 433440175637921792
+                                location: 
+                                created_at: 2014-02-11 22:19:25.000000000 -05:00
+                                url: https://twitter.com/JDotLeezy/status/433440175637921792
+                                parents:
+                                - *1
+                                children:
+                                - !ruby/object:Tweet
+                                  username: LAmeetsDC
+                                  id: 433440328662917120
+                                  location: 
+                                  created_at: 2014-02-11 22:20:01.000000000 -05:00
+                                  url: https://twitter.com/LAmeetsDC/status/433440328662917120
+                                  parents:
+                                  - *16
+                                  children: []
+                              - *17
+                            children:
+                            - *18
+                          children:
+                          - !ruby/object:Tweet
+                            username: chrissarda
+                            id: 433684568982695936
+                            location: 
+                            created_at: 2014-02-12 14:30:33.000000000 -05:00
+                            url: https://twitter.com/chrissarda/status/433684568982695936
+                            parents:
+                            - *18
+                            children: []
+                          - !ruby/object:Tweet
+                            username: anaphysik
+                            id: 433544609315041281
+                            location: 
+                            created_at: 2014-02-12 05:14:24.000000000 -05:00
+                            url: https://twitter.com/anaphysik/status/433544609315041281
+                            parents:
+                            - *18
+                            children: []
+                          - !ruby/object:Tweet
+                            username: burtlikko
+                            id: 433398462554468352
+                            location: 
+                            created_at: 2014-02-11 19:33:40.000000000 -05:00
+                            url: https://twitter.com/burtlikko/status/433398462554468352
+                            parents:
+                            - *18
+                            children: []
+                          - !ruby/object:Tweet
+                            username: therealjavery
+                            id: 433253407324110848
+                            location: 
+                            created_at: 2014-02-11 09:57:16.000000000 -05:00
+                            url: https://twitter.com/therealjavery/status/433253407324110848
+                            parents:
+                            - *18
+                            children: []
+                          - *19
+                        children:
+                        - &20 !ruby/object:Tweet
+                          username: Maggie_McNeill
+                          id: 433262116871471104
+                          location: 
+                          created_at: 2014-02-11 10:31:52.000000000 -05:00
+                          url: https://twitter.com/Maggie_McNeill/status/433262116871471104
+                          parents:
+                          - *19
+                          children:
+                          - !ruby/object:Tweet
+                            username: WilsonKM2
+                            id: 433273470483693569
+                            location: 
+                            created_at: 2014-02-11 11:16:59.000000000 -05:00
+                            url: https://twitter.com/WilsonKM2/status/433273470483693569
+                            parents:
+                            - *20
+                            children: []
+                          - !ruby/object:Tweet
+                            username: Hal_RTFLC
+                            id: 433264008930414592
+                            location: 
+                            created_at: 2014-02-11 10:39:24.000000000 -05:00
+                            url: https://twitter.com/Hal_RTFLC/status/433264008930414592
+                            parents:
+                            - *20
+                            children: []
+                          - !ruby/object:Tweet
+                            username: gideonstrumpet
+                            id: 433263584903458816
+                            location: 
+                            created_at: 2014-02-11 10:37:42.000000000 -05:00
+                            url: https://twitter.com/gideonstrumpet/status/433263584903458816
+                            parents:
+                            - *20
+                            children: []
+                          - &21 !ruby/object:Tweet
+                            username: DrPhilofEconomi
+                            id: 433262784290123776
+                            location: 
+                            created_at: 2014-02-11 10:34:32.000000000 -05:00
+                            url: https://twitter.com/DrPhilofEconomi/status/433262784290123776
+                            parents:
+                            - *20
+                            children:
+                            - !ruby/object:Tweet
+                              username: smuttynosebabs
+                              id: 433371188677464064
+                              location: 
+                              created_at: 2014-02-11 17:45:17.000000000 -05:00
+                              url: https://twitter.com/smuttynosebabs/status/433371188677464064
+                              parents:
+                              - *21
+                              children: []
+                            - !ruby/object:Tweet
+                              username: Celt_Englishman
+                              id: 433291901891280896
+                              location: 
+                              created_at: 2014-02-11 12:30:14.000000000 -05:00
+                              url: https://twitter.com/Celt_Englishman/status/433291901891280896
+                              parents:
+                              - *21
+                              children: []
+                            - !ruby/object:Tweet
+                              username: seattle_sanchez
+                              id: 433275320826068993
+                              location: 
+                              created_at: 2014-02-11 11:24:21.000000000 -05:00
+                              url: https://twitter.com/seattle_sanchez/status/433275320826068993
+                              parents:
+                              - *21
+                              children: []
+                            - &22 !ruby/object:Tweet
+                              username: fakedansavage
+                              id: 433274299558809600
+                              location: 
+                              created_at: 2014-02-11 11:20:17.000000000 -05:00
+                              url: https://twitter.com/fakedansavage/status/433274299558809600
+                              parents:
+                              - *21
+                              children:
+                              - !ruby/object:Tweet
+                                username: Roddy_Campbell
+                                id: 433318550174842880
+                                location: 
+                                created_at: 2014-02-11 14:16:07.000000000 -05:00
+                                url: https://twitter.com/Roddy_Campbell/status/433318550174842880
+                                parents:
+                                - *22
+                                children: []
+                              - &23 !ruby/object:Tweet
+                                username: Honest_Catesan
+                                id: 433309427970502656
+                                location: 
+                                created_at: 2014-02-11 13:39:52.000000000 -05:00
+                                url: https://twitter.com/Honest_Catesan/status/433309427970502656
+                                parents:
+                                - *22
+                                children:
+                                - !ruby/object:Tweet
+                                  username: eddiejc1
+                                  id: 433394227339198464
+                                  location: 
+                                  created_at: 2014-02-11 19:16:50.000000000 -05:00
+                                  url: https://twitter.com/eddiejc1/status/433394227339198464
+                                  parents:
+                                  - *23
+                                  children: []
+                              - !ruby/object:Tweet
+                                username: BrianHodges
+                                id: 433303859742519296
+                                location: 
+                                created_at: 2014-02-11 13:17:45.000000000 -05:00
+                                url: https://twitter.com/BrianHodges/status/433303859742519296
+                                parents:
+                                - *22
+                                children: []
+                              - !ruby/object:Tweet
+                                username: chippy87
+                                id: 433285649391579136
+                                location: 
+                                created_at: 2014-02-11 12:05:23.000000000 -05:00
+                                url: https://twitter.com/chippy87/status/433285649391579136
+                                parents:
+                                - *22
+                                children: []
+                              - !ruby/object:Tweet
+                                username: eddiejc1
+                                id: 433281963101663232
+                                location: 
+                                created_at: 2014-02-11 11:50:44.000000000 -05:00
+                                url: https://twitter.com/eddiejc1/status/433281963101663232
+                                parents:
+                                - *22
+                                children: []
+                        - !ruby/object:Tweet
+                          username: joemfb
+                          id: 433261010288652288
+                          location: 
+                          created_at: 2014-02-11 10:27:29.000000000 -05:00
+                          url: https://twitter.com/joemfb/status/433261010288652288
+                          parents:
+                          - *19
+                          children: []
+                        - !ruby/object:Tweet
+                          username: ptconroy
+                          id: 433260776170610690
+                          location: 
+                          created_at: 2014-02-11 10:26:33.000000000 -05:00
+                          url: https://twitter.com/ptconroy/status/433260776170610690
+                          parents:
+                          - *19
+                          children: []
+                        - !ruby/object:Tweet
+                          username: CatholicMomVA
+                          id: 433258160237707264
+                          location: 
+                          created_at: 2014-02-11 10:16:09.000000000 -05:00
+                          url: https://twitter.com/CatholicMomVA/status/433258160237707264
+                          parents:
+                          - *19
+                          children: []
+                        - !ruby/object:Tweet
+                          username: TyreJim
+                          id: 433255359415738368
+                          location: 
+                          created_at: 2014-02-11 10:05:01.000000000 -05:00
+                          url: https://twitter.com/TyreJim/status/433255359415738368
+                          parents:
+                          - *19
+                          children: []
+                        - !ruby/object:Tweet
+                          username: doranb
+                          id: 433254002000556032
+                          location: 
+                          created_at: 2014-02-11 09:59:38.000000000 -05:00
+                          url: https://twitter.com/doranb/status/433254002000556032
+                          parents:
+                          - *19
+                          children: []
+                        - !ruby/object:Tweet
+                          username: Captien5
+                          id: 433253159218065408
+                          location: 
+                          created_at: 2014-02-11 09:56:17.000000000 -05:00
+                          url: https://twitter.com/Captien5/status/433253159218065408
+                          parents:
+                          - *19
+                          children: []
+                        - &24 !ruby/object:Tweet
+                          username: GeeCaret2
+                          id: 433252450917568512
+                          location: 
+                          created_at: 2014-02-11 09:53:28.000000000 -05:00
+                          url: https://twitter.com/GeeCaret2/status/433252450917568512
+                          parents:
+                          - *19
+                          children:
+                          - !ruby/object:Tweet
+                            username: madmup
+                            id: 433260860157345792
+                            location: 
+                            created_at: 2014-02-11 10:26:53.000000000 -05:00
+                            url: https://twitter.com/madmup/status/433260860157345792
+                            parents:
+                            - *24
+                            children: []
+                        - *25
+                        - !ruby/object:Tweet
+                          username: leftoutside
+                          id: 433252064831893504
+                          location: 
+                          created_at: 2014-02-11 09:51:56.000000000 -05:00
+                          url: https://twitter.com/leftoutside/status/433252064831893504
+                          parents:
+                          - *19
+                          children: []
+                      children:
+                      - !ruby/object:Tweet
+                        username: rlh
+                        id: 433345160752005120
+                        location: 
+                        created_at: 2014-02-11 16:01:52.000000000 -05:00
+                        url: https://twitter.com/rlh/status/433345160752005120
+                        parents:
+                        - *25
+                        children: []
+                      - !ruby/object:Tweet
+                        username: jmdblog
+                        id: 433263559506546688
+                        location: 
+                        created_at: 2014-02-11 10:37:36.000000000 -05:00
+                        url: https://twitter.com/jmdblog/status/433263559506546688
+                        parents:
+                        - *25
+                        children: []
+                      - *26
+                    children:
+                    - &27 !ruby/object:Tweet
+                      username: my_synthesizer
+                      id: 433323265994403840
+                      location: 
+                      created_at: 2014-02-11 14:34:52.000000000 -05:00
+                      url: https://twitter.com/my_synthesizer/status/433323265994403840
+                      parents:
+                      - *26
+                      children:
+                      - !ruby/object:Tweet
+                        username: BudgetYachtsman
+                        id: 433347715578089472
+                        location: 
+                        created_at: 2014-02-11 16:12:01.000000000 -05:00
+                        url: https://twitter.com/BudgetYachtsman/status/433347715578089472
+                        parents:
+                        - *27
+                        children: []
+                    - &28 !ruby/object:Tweet
+                      username: MikeCGannon
+                      id: 433263701635129345
+                      location: 
+                      created_at: 2014-02-11 10:38:10.000000000 -05:00
+                      url: https://twitter.com/MikeCGannon/status/433263701635129345
+                      parents:
+                      - *26
+                      children:
+                      - !ruby/object:Tweet
+                        username: stephandstuff
+                        id: 433264156071182336
+                        location: 
+                        created_at: 2014-02-11 10:39:59.000000000 -05:00
+                        url: https://twitter.com/stephandstuff/status/433264156071182336
+                        parents:
+                        - *28
+                        children: []
+                    - *29
+                    - !ruby/object:Tweet
+                      username: The_Autopen
+                      id: 433259572220796928
+                      location: 
+                      created_at: 2014-02-11 10:21:46.000000000 -05:00
+                      url: https://twitter.com/The_Autopen/status/433259572220796928
+                      parents:
+                      - *26
+                      children: []
+                  children:
+                  - !ruby/object:Tweet
+                    username: kotik_narkotlk
+                    id: 433636613172625408
+                    location: 
+                    created_at: 2014-02-12 11:19:59.000000000 -05:00
+                    url: https://twitter.com/kotik_narkotlk/status/433636613172625408
+                    parents:
+                    - *29
+                    children: []
+                  - !ruby/object:Tweet
+                    username: mauskopf
+                    id: 433464359549804544
+                    location: 
+                    created_at: 2014-02-11 23:55:31.000000000 -05:00
+                    url: https://twitter.com/mauskopf/status/433464359549804544
+                    parents:
+                    - *29
+                    children: []
+                  - !ruby/object:Tweet
+                    username: NatesMama1128
+                    id: 433438063646490624
+                    location: 
+                    created_at: 2014-02-11 22:11:01.000000000 -05:00
+                    url: https://twitter.com/NatesMama1128/status/433438063646490624
+                    parents:
+                    - *29
+                    children: []
+                  - &30 !ruby/object:Tweet
+                    username: SKSchultz1985
+                    id: 433338541934784512
+                    location: 
+                    created_at: 2014-02-11 15:35:34.000000000 -05:00
+                    url: https://twitter.com/SKSchultz1985/status/433338541934784512
+                    parents:
+                    - *29
+                    children:
+                    - !ruby/object:Tweet
+                      username: ChurchJudge
+                      id: 433373628034334720
+                      location: 
+                      created_at: 2014-02-11 17:54:59.000000000 -05:00
+                      url: https://twitter.com/ChurchJudge/status/433373628034334720
+                      parents:
+                      - *30
+                      children: []
+                    - &31 !ruby/object:Tweet
+                      username: SSeminarian
+                      id: 433340789985271808
+                      location: 
+                      created_at: 2014-02-11 15:44:30.000000000 -05:00
+                      url: https://twitter.com/SSeminarian/status/433340789985271808
+                      parents:
+                      - *30
+                      children:
+                      - &32 !ruby/object:Tweet
+                        username: chattytamster
+                        id: 433371716996177920
+                        location: 
+                        created_at: 2014-02-11 17:47:23.000000000 -05:00
+                        url: https://twitter.com/chattytamster/status/433371716996177920
+                        parents:
+                        - *31
+                        children:
+                        - !ruby/object:Tweet
+                          username: revdeniseppc
+                          id: 433381228490665984
+                          location: 
+                          created_at: 2014-02-11 18:25:11.000000000 -05:00
+                          url: https://twitter.com/revdeniseppc/status/433381228490665984
+                          parents:
+                          - *32
+                          children: []
+                      - !ruby/object:Tweet
+                        username: pkproblem
+                        id: 433344240504946690
+                        location: 
+                        created_at: 2014-02-11 15:58:12.000000000 -05:00
+                        url: https://twitter.com/pkproblem/status/433344240504946690
+                        parents:
+                        - *31
+                        children: []
+                  - !ruby/object:Tweet
+                    username: McShauno
+                    id: 433260024744665088
+                    location: 
+                    created_at: 2014-02-11 10:23:34.000000000 -05:00
+                    url: https://twitter.com/McShauno/status/433260024744665088
+                    parents:
+                    - *29
+                    children: []
+                  - *33
+                children:
+                - !ruby/object:Tweet
+                  username: Buckeyesales
+                  id: 433334474764324865
+                  location: 
+                  created_at: 2014-02-11 15:19:24.000000000 -05:00
+                  url: https://twitter.com/Buckeyesales/status/433334474764324865
+                  parents:
+                  - *33
+                  children: []
+                - !ruby/object:Tweet
+                  username: CHBilhorn
+                  id: 433326559647117314
+                  location: 
+                  created_at: 2014-02-11 14:47:57.000000000 -05:00
+                  url: https://twitter.com/CHBilhorn/status/433326559647117314
+                  parents:
+                  - *33
+                  children: []
+                - *34
+                - !ruby/object:Tweet
+                  username: davilch
+                  id: 433260763755446272
+                  location: 
+                  created_at: 2014-02-11 10:26:30.000000000 -05:00
+                  url: https://twitter.com/davilch/status/433260763755446272
+                  parents:
+                  - *33
+                  children: []
+              children:
+              - &35 !ruby/object:Tweet
+                username: Zaklog
+                id: 433357776052420609
+                location: 
+                created_at: 2014-02-11 16:51:59.000000000 -05:00
+                url: https://twitter.com/Zaklog/status/433357776052420609
+                parents:
+                - *34
+                children:
+                - !ruby/object:Tweet
+                  username: MikeHassinger
+                  id: 433359182901698561
+                  location: 
+                  created_at: 2014-02-11 16:57:35.000000000 -05:00
+                  url: https://twitter.com/MikeHassinger/status/433359182901698561
+                  parents:
+                  - *35
+                  children: []
+                - &36 !ruby/object:Tweet
+                  username: IMAO_
+                  id: 433358907637919745
+                  location: 
+                  created_at: 2014-02-11 16:56:29.000000000 -05:00
+                  url: https://twitter.com/IMAO_/status/433358907637919745
+                  parents:
+                  - *35
+                  children:
+                  - !ruby/object:Tweet
+                    username: TheWesKirk
+                    id: 433439738268516352
+                    location: 
+                    created_at: 2014-02-11 22:17:41.000000000 -05:00
+                    url: https://twitter.com/TheWesKirk/status/433439738268516352
+                    parents:
+                    - *36
+                    children: []
+                  - !ruby/object:Tweet
+                    username: TheWesKirk
+                    id: 433359479820656640
+                    location: 
+                    created_at: 2014-02-11 16:58:46.000000000 -05:00
+                    url: https://twitter.com/TheWesKirk/status/433359479820656640
+                    parents:
+                    - *36
+                    children: []
+              - !ruby/object:Tweet
+                username: prosehaikus
+                id: 433339164944109568
+                location: 
+                created_at: 2014-02-11 15:38:02.000000000 -05:00
+                url: https://twitter.com/prosehaikus/status/433339164944109568
+                parents:
+                - *34
+                children: []
+              - *37
+            children:
+            - &38 !ruby/object:Tweet
+              username: dannyboi965
+              id: 433436427125137408
+              location: 
+              created_at: 2014-02-11 22:04:31.000000000 -05:00
+              url: https://twitter.com/dannyboi965/status/433436427125137408
+              parents:
+              - *37
+              children:
+              - &39 !ruby/object:Tweet
+                username: dwjones712
+                id: 433438024689414145
+                location: 
+                created_at: 2014-02-11 22:10:52.000000000 -05:00
+                url: https://twitter.com/dwjones712/status/433438024689414145
+                parents:
+                - *38
+                children:
+                - !ruby/object:Tweet
+                  username: PYPX
+                  id: 433438750773768192
+                  location: 
+                  created_at: 2014-02-11 22:13:45.000000000 -05:00
+                  url: https://twitter.com/PYPX/status/433438750773768192
+                  parents:
+                  - *39
+                  children: []
+              - !ruby/object:Tweet
+                username: jennycash162
+                id: 433437599823167488
+                location: 
+                created_at: 2014-02-11 22:09:11.000000000 -05:00
+                url: https://twitter.com/jennycash162/status/433437599823167488
+                parents:
+                - *38
+                children: []
+            - *40
+          children:
+          - !ruby/object:Tweet
+            username: Debloper
+            id: 433589737245249536
+            location: 
+            created_at: 2014-02-12 08:13:43.000000000 -05:00
+            url: https://twitter.com/Debloper/status/433589737245249536
+            parents:
+            - *40
+            children: []
+          - !ruby/object:Tweet
+            username: Micky_Finn
+            id: 433343089407565827
+            location: 
+            created_at: 2014-02-11 15:53:38.000000000 -05:00
+            url: https://twitter.com/Micky_Finn/status/433343089407565827
+            parents:
+            - *40
+            children: []
+          - !ruby/object:Tweet
+            username: TabithaHale
+            id: 433341430979764225
+            location: 
+            created_at: 2014-02-11 15:47:02.000000000 -05:00
+            url: https://twitter.com/TabithaHale/status/433341430979764225
+            parents:
+            - *40
+            children: []
+          - &41 !ruby/object:Tweet
+            username: okmaher
+            id: 433340722834464769
+            location: 
+            created_at: 2014-02-11 15:44:14.000000000 -05:00
+            url: https://twitter.com/okmaher/status/433340722834464769
+            parents:
+            - *40
+            children:
+            - !ruby/object:Tweet
+              username: jlocke613
+              id: 433355790494081024
+              location: 
+              created_at: 2014-02-11 16:44:06.000000000 -05:00
+              url: https://twitter.com/jlocke613/status/433355790494081024
+              parents:
+              - *41
+              children: []
+            - &42 !ruby/object:Tweet
+              username: leighblue
+              id: 433342865293324289
+              location: 
+              created_at: 2014-02-11 15:52:44.000000000 -05:00
+              url: https://twitter.com/leighblue/status/433342865293324289
+              parents:
+              - *41
+              children:
+              - !ruby/object:Tweet
+                username: therealBGS
+                id: 433351100997967873
+                location: 
+                created_at: 2014-02-11 16:25:28.000000000 -05:00
+                url: https://twitter.com/therealBGS/status/433351100997967873
+                parents:
+                - *42
+                children: []
+          - *43
+        children:
+        - !ruby/object:Tweet
+          username: JimmyCayne
+          id: 433789245569110016
+          location: 
+          created_at: 2014-02-12 21:26:30.000000000 -05:00
+          url: https://twitter.com/JimmyCayne/status/433789245569110016
+          parents:
+          - *43
+          children: []
+        - !ruby/object:Tweet
+          username: madhurchadha
+          id: 433476124077592576
+          location: 
+          created_at: 2014-02-12 00:42:16.000000000 -05:00
+          url: https://twitter.com/madhurchadha/status/433476124077592576
+          parents:
+          - *43
+          children: []
+        - !ruby/object:Tweet
+          username: ConcenEcon
+          id: 433344453449773056
+          location: 
+          created_at: 2014-02-11 15:59:03.000000000 -05:00
+          url: https://twitter.com/ConcenEcon/status/433344453449773056
+          parents:
+          - *43
+          children: []
+        - &44 !ruby/object:Tweet
+          username: GayPatriot
+          id: 433339925350465536
+          location: 
+          created_at: 2014-02-11 15:41:03.000000000 -05:00
+          url: https://twitter.com/GayPatriot/status/433339925350465536
+          parents:
+          - *43
+          children:
+          - &45 !ruby/object:Tweet
+            username: coolhandschlute
+            id: 433340833769615360
+            location: 
+            created_at: 2014-02-11 15:44:40.000000000 -05:00
+            url: https://twitter.com/coolhandschlute/status/433340833769615360
+            parents:
+            - *44
+            children:
+            - &46 !ruby/object:Tweet
+              username: JohnG405
+              id: 433351173194534914
+              location: 
+              created_at: 2014-02-11 16:25:45.000000000 -05:00
+              url: https://twitter.com/JohnG405/status/433351173194534914
+              parents:
+              - *45
+              children:
+              - !ruby/object:Tweet
+                username: Aaron_RS
+                id: 433351556352598016
+                location: 
+                created_at: 2014-02-11 16:27:16.000000000 -05:00
+                url: https://twitter.com/Aaron_RS/status/433351556352598016
+                parents:
+                - *46
+                children: []
+              - !ruby/object:Tweet
+                username: Matthops82
+                id: 433351365776007168
+                location: 
+                created_at: 2014-02-11 16:26:31.000000000 -05:00
+                url: https://twitter.com/Matthops82/status/433351365776007168
+                parents:
+                - *46
+                children: []
+        - *47
+      children:
+      - !ruby/object:Tweet
+        username: rwknopp
+        id: 433403144169459712
+        location: 
+        created_at: 2014-02-11 19:52:16.000000000 -05:00
+        url: https://twitter.com/rwknopp/status/433403144169459712
+        parents:
+        - *47
+        children: []
+      - &48 !ruby/object:Tweet
+        username: Rand_Simberg
+        id: 433341746714382336
+        location: 
+        created_at: 2014-02-11 15:48:18.000000000 -05:00
+        url: https://twitter.com/Rand_Simberg/status/433341746714382336
+        parents:
+        - *47
+        children:
+        - !ruby/object:Tweet
+          username: Simberg_Space
+          id: 433348439166816256
+          location: 
+          created_at: 2014-02-11 16:14:53.000000000 -05:00
+          url: https://twitter.com/Simberg_Space/status/433348439166816256
+          parents:
+          - *48
+          children: []
+      - *49
+      - !ruby/object:Tweet
+        username: NicoSGonzalez
+        id: 433340190216556544
+        location: 
+        created_at: 2014-02-11 15:42:07.000000000 -05:00
+        url: https://twitter.com/NicoSGonzalez/status/433340190216556544
+        parents:
+        - *47
+        children: []
+      - &50 !ruby/object:Tweet
+        username: charlescwcooke
+        id: 433339691459284992
+        location: 
+        created_at: 2014-02-11 15:40:08.000000000 -05:00
+        url: https://twitter.com/charlescwcooke/status/433339691459284992
+        parents:
+        - *47
+        children:
+        - !ruby/object:Tweet
+          username: webmastercorey
+          id: 433379575557398528
+          location: 
+          created_at: 2014-02-11 18:18:37.000000000 -05:00
+          url: https://twitter.com/webmastercorey/status/433379575557398528
+          parents:
+          - *50
+          children: []
+        - !ruby/object:Tweet
+          username: fmlien
+          id: 433341704280616960
+          location: 
+          created_at: 2014-02-11 15:48:08.000000000 -05:00
+          url: https://twitter.com/fmlien/status/433341704280616960
+          parents:
+          - *50
+          children: []
+        - !ruby/object:Tweet
+          username: Slublog
+          id: 433340091688161280
+          location: 
+          created_at: 2014-02-11 15:41:43.000000000 -05:00
+          url: https://twitter.com/Slublog/status/433340091688161280
+          parents:
+          - *50
+          children: []
+      - !ruby/object:Tweet
+        username: DraftRyan2016
+        id: 433339655233101824
+        location: 
+        created_at: 2014-02-11 15:39:59.000000000 -05:00
+        url: https://twitter.com/DraftRyan2016/status/433339655233101824
+        parents:
+        - *47
+        children: []
+    children:
+    - &51 !ruby/object:Tweet
+      username: sunnyright
+      id: 433342799241420800
+      location: 
+      created_at: 2014-02-11 15:52:29.000000000 -05:00
+      url: https://twitter.com/sunnyright/status/433342799241420800
+      parents:
+      - *49
+      children:
+      - !ruby/object:Tweet
+        username: Griveau
+        id: 433526623246090240
+        location: 
+        created_at: 2014-02-12 04:02:56.000000000 -05:00
+        url: https://twitter.com/Griveau/status/433526623246090240
+        parents:
+        - *51
+        children: []
+      - !ruby/object:Tweet
+        username: DesertedOdds
+        id: 433393548067500032
+        location: 
+        created_at: 2014-02-11 19:14:08.000000000 -05:00
+        url: https://twitter.com/DesertedOdds/status/433393548067500032
+        parents:
+        - *51
+        children: []
+      - !ruby/object:Tweet
+        username: BriMonroeCarter
+        id: 433392900551241728
+        location: 
+        created_at: 2014-02-11 19:11:34.000000000 -05:00
+        url: https://twitter.com/BriMonroeCarter/status/433392900551241728
+        parents:
+        - *51
+        children: []
+      - !ruby/object:Tweet
+        username: meghoulihan
+        id: 433388658524033024
+        location: 
+        created_at: 2014-02-11 18:54:42.000000000 -05:00
+        url: https://twitter.com/meghoulihan/status/433388658524033024
+        parents:
+        - *51
+        children: []
+      - !ruby/object:Tweet
+        username: anthropocon
+        id: 433385701317824512
+        location: 
+        created_at: 2014-02-11 18:42:57.000000000 -05:00
+        url: https://twitter.com/anthropocon/status/433385701317824512
+        parents:
+        - *51
+        children: []
+      - !ruby/object:Tweet
+        username: DaveinTexas
+        id: 433383789566246912
+        location: 
+        created_at: 2014-02-11 18:35:21.000000000 -05:00
+        url: https://twitter.com/DaveinTexas/status/433383789566246912
+        parents:
+        - *51
+        children: []
+      - !ruby/object:Tweet
+        username: onedadslife
+        id: 433383426037534720
+        location: 
+        created_at: 2014-02-11 18:33:55.000000000 -05:00
+        url: https://twitter.com/onedadslife/status/433383426037534720
+        parents:
+        - *51
+        children: []
+      - !ruby/object:Tweet
+        username: ChrisLoesch
+        id: 433382639668428801
+        location: 
+        created_at: 2014-02-11 18:30:47.000000000 -05:00
+        url: https://twitter.com/ChrisLoesch/status/433382639668428801
+        parents:
+        - *51
+        children: []
+    - !ruby/object:Tweet
+      username: mustango13
+      id: 433341694281412610
+      location: 
+      created_at: 2014-02-11 15:48:05.000000000 -05:00
+      url: https://twitter.com/mustango13/status/433341694281412610
+      parents:
+      - *49
+      children: []
+    - !ruby/object:Tweet
+      username: JoeC_Esquire
+      id: 433341206160875520
+      location: 
+      created_at: 2014-02-11 15:46:09.000000000 -05:00
+      url: https://twitter.com/JoeC_Esquire/status/433341206160875520
+      parents:
+      - *49
+      children: []
+    - !ruby/object:Tweet
+      username: Joelmentum
+      id: 433340903239852032
+      location: 
+      created_at: 2014-02-11 15:44:57.000000000 -05:00
+      url: https://twitter.com/Joelmentum/status/433340903239852032
+      parents:
+      - *49
+      children: []
+    - *52
+  children: []
+traveled_path:
+- - 
+  - &53 !ruby/object:Tweet
+    username: BenHowe
+    id: 433249756006346752
+    location: 
+    created_at: 2014-02-11 09:42:45.000000000 -05:00
+    url: https://twitter.com/BenHowe/status/433249756006346752
+    parents: []
+    children:
+    - &104 !ruby/object:Tweet
+      username: rubedar07
+      id: 433775063238991872
+      location: 
+      created_at: 2014-02-12 20:30:08.000000000 -05:00
+      url: https://twitter.com/rubedar07/status/433775063238991872
+      parents:
+      - *53
+      children: []
+    - &105 !ruby/object:Tweet
+      username: ssms54
+      id: 433772893730635776
+      location: 
+      created_at: 2014-02-12 20:21:31.000000000 -05:00
+      url: https://twitter.com/ssms54/status/433772893730635776
+      parents:
+      - *53
+      children: []
+    - &106 !ruby/object:Tweet
+      username: Leon_BM
+      id: 433766495839985665
+      location: 
+      created_at: 2014-02-12 19:56:06.000000000 -05:00
+      url: https://twitter.com/Leon_BM/status/433766495839985665
+      parents:
+      - *53
+      children: []
+    - &107 !ruby/object:Tweet
+      username: IceW
+      id: 433758073870503936
+      location: 
+      created_at: 2014-02-12 19:22:38.000000000 -05:00
+      url: https://twitter.com/IceW/status/433758073870503936
+      parents:
+      - *53
+      children: []
+    - &108 !ruby/object:Tweet
+      username: ClaudioAlbertin
+      id: 433747244739993600
+      location: 
+      created_at: 2014-02-12 18:39:36.000000000 -05:00
+      url: https://twitter.com/ClaudioAlbertin/status/433747244739993600
+      parents:
+      - *53
+      children: []
+    - &109 !ruby/object:Tweet
+      username: lidiyaloves_x
+      id: 433743346301804544
+      location: 
+      created_at: 2014-02-12 18:24:06.000000000 -05:00
+      url: https://twitter.com/lidiyaloves_x/status/433743346301804544
+      parents:
+      - *53
+      children: []
+    - &110 !ruby/object:Tweet
+      username: TristanSekeris
+      id: 433733823327518720
+      location: 
+      created_at: 2014-02-12 17:46:16.000000000 -05:00
+      url: https://twitter.com/TristanSekeris/status/433733823327518720
+      parents:
+      - *53
+      children: []
+    - &111 !ruby/object:Tweet
+      username: UnMesero
+      id: 433719196980359169
+      location: 
+      created_at: 2014-02-12 16:48:09.000000000 -05:00
+      url: https://twitter.com/UnMesero/status/433719196980359169
+      parents:
+      - *53
+      children: []
+    - &112 !ruby/object:Tweet
+      username: Philaios
+      id: 433717670295265280
+      location: 
+      created_at: 2014-02-12 16:42:05.000000000 -05:00
+      url: https://twitter.com/Philaios/status/433717670295265280
+      parents:
+      - *53
+      children: []
+    - &113 !ruby/object:Tweet
+      username: lys0201roy
+      id: 433716957536194560
+      location: 
+      created_at: 2014-02-12 16:39:15.000000000 -05:00
+      url: https://twitter.com/lys0201roy/status/433716957536194560
+      parents:
+      - *53
+      children: []
+    - &114 !ruby/object:Tweet
+      username: Joffreyziell
+      id: 433716382107435008
+      location: 
+      created_at: 2014-02-12 16:36:58.000000000 -05:00
+      url: https://twitter.com/Joffreyziell/status/433716382107435008
+      parents:
+      - *53
+      children: []
+    - &115 !ruby/object:Tweet
+      username: romandope
+      id: 433710060272111618
+      location: 
+      created_at: 2014-02-12 16:11:50.000000000 -05:00
+      url: https://twitter.com/romandope/status/433710060272111618
+      parents:
+      - *53
+      children: []
+    - &116 !ruby/object:Tweet
+      username: d0od
+      id: 433698845588197377
+      location: 
+      created_at: 2014-02-12 15:27:17.000000000 -05:00
+      url: https://twitter.com/d0od/status/433698845588197377
+      parents:
+      - *53
+      children: []
+    - &117 !ruby/object:Tweet
+      username: edgarazado
+      id: 433694573932871680
+      location: 
+      created_at: 2014-02-12 15:10:18.000000000 -05:00
+      url: https://twitter.com/edgarazado/status/433694573932871680
+      parents:
+      - *53
+      children: []
+    - &118 !ruby/object:Tweet
+      username: malejandrou
+      id: 433693566389723136
+      location: 
+      created_at: 2014-02-12 15:06:18.000000000 -05:00
+      url: https://twitter.com/malejandrou/status/433693566389723136
+      parents:
+      - *53
+      children: []
+    - &119 !ruby/object:Tweet
+      username: hagasbar
+      id: 433692767491854336
+      location: 
+      created_at: 2014-02-12 15:03:08.000000000 -05:00
+      url: https://twitter.com/hagasbar/status/433692767491854336
+      parents:
+      - *53
+      children: []
+    - &120 !ruby/object:Tweet
+      username: SamuelDam
+      id: 433689099950882816
+      location: 
+      created_at: 2014-02-12 14:48:33.000000000 -05:00
+      url: https://twitter.com/SamuelDam/status/433689099950882816
+      parents:
+      - *53
+      children: []
+    - &121 !ruby/object:Tweet
+      username: SaraRCookie
+      id: 433687766162219008
+      location: 
+      created_at: 2014-02-12 14:43:15.000000000 -05:00
+      url: https://twitter.com/SaraRCookie/status/433687766162219008
+      parents:
+      - *53
+      children: []
+    - &122 !ruby/object:Tweet
+      username: sixdll
+      id: 433686448022495232
+      location: 
+      created_at: 2014-02-12 14:38:01.000000000 -05:00
+      url: https://twitter.com/sixdll/status/433686448022495232
+      parents:
+      - *53
+      children: []
+    - &123 !ruby/object:Tweet
+      username: DeDaanmans
+      id: 433677517896310784
+      location: 
+      created_at: 2014-02-12 14:02:32.000000000 -05:00
+      url: https://twitter.com/DeDaanmans/status/433677517896310784
+      parents:
+      - *53
+      children: []
+    - &124 !ruby/object:Tweet
+      username: SadHazelnut
+      id: 433676752024772608
+      location: 
+      created_at: 2014-02-12 13:59:29.000000000 -05:00
+      url: https://twitter.com/SadHazelnut/status/433676752024772608
+      parents:
+      - *53
+      children: []
+    - &125 !ruby/object:Tweet
+      username: gvssr
+      id: 433676206274510848
+      location: 
+      created_at: 2014-02-12 13:57:19.000000000 -05:00
+      url: https://twitter.com/gvssr/status/433676206274510848
+      parents:
+      - *53
+      children: []
+    - &126 !ruby/object:Tweet
+      username: MemoryOnSmell
+      id: 433669345894334465
+      location: 
+      created_at: 2014-02-12 13:30:03.000000000 -05:00
+      url: https://twitter.com/MemoryOnSmell/status/433669345894334465
+      parents:
+      - *53
+      children: []
+    - &127 !ruby/object:Tweet
+      username: lelek_kofe
+      id: 433653594118582272
+      location: 
+      created_at: 2014-02-12 12:27:28.000000000 -05:00
+      url: https://twitter.com/lelek_kofe/status/433653594118582272
+      parents:
+      - *53
+      children: []
+    - &128 !ruby/object:Tweet
+      username: macsnider
+      id: 433652932295544832
+      location: 
+      created_at: 2014-02-12 12:24:50.000000000 -05:00
+      url: https://twitter.com/macsnider/status/433652932295544832
+      parents:
+      - *53
+      children: []
+    - &129 !ruby/object:Tweet
+      username: Morozov43
+      id: 433646656970428419
+      location: 
+      created_at: 2014-02-12 11:59:54.000000000 -05:00
+      url: https://twitter.com/Morozov43/status/433646656970428419
+      parents:
+      - *53
+      children: []
+    - &130 !ruby/object:Tweet
+      username: davidtgriches
+      id: 433646062796939264
+      location: 
+      created_at: 2014-02-12 11:57:32.000000000 -05:00
+      url: https://twitter.com/davidtgriches/status/433646062796939264
+      parents:
+      - *53
+      children: []
+    - &131 !ruby/object:Tweet
+      username: sononchalance
+      id: 433643558365458433
+      location: 
+      created_at: 2014-02-12 11:47:35.000000000 -05:00
+      url: https://twitter.com/sononchalance/status/433643558365458433
+      parents:
+      - *53
+      children: []
+    - &132 !ruby/object:Tweet
+      username: InnaShidlovskay
+      id: 433640714996842496
+      location: 
+      created_at: 2014-02-12 11:36:17.000000000 -05:00
+      url: https://twitter.com/InnaShidlovskay/status/433640714996842496
+      parents:
+      - *53
+      children: []
+    - &133 !ruby/object:Tweet
+      username: peermohamed
+      id: 433632079939502080
+      location: 
+      created_at: 2014-02-12 11:01:59.000000000 -05:00
+      url: https://twitter.com/peermohamed/status/433632079939502080
+      parents:
+      - *53
+      children: []
+    - &134 !ruby/object:Tweet
+      username: apiyron
+      id: 433630722675720192
+      location: 
+      created_at: 2014-02-12 10:56:35.000000000 -05:00
+      url: https://twitter.com/apiyron/status/433630722675720192
+      parents:
+      - *53
+      children: []
+    - &135 !ruby/object:Tweet
+      username: n_ismangulov
+      id: 433627149971365890
+      location: 
+      created_at: 2014-02-12 10:42:23.000000000 -05:00
+      url: https://twitter.com/n_ismangulov/status/433627149971365890
+      parents:
+      - *53
+      children: []
+    - &136 !ruby/object:Tweet
+      username: sarahmedetth
+      id: 433626020064002048
+      location: 
+      created_at: 2014-02-12 10:37:54.000000000 -05:00
+      url: https://twitter.com/sarahmedetth/status/433626020064002048
+      parents:
+      - *53
+      children: []
+    - &137 !ruby/object:Tweet
+      username: RubenBehaeghe
+      id: 433621511572701184
+      location: 
+      created_at: 2014-02-12 10:19:59.000000000 -05:00
+      url: https://twitter.com/RubenBehaeghe/status/433621511572701184
+      parents:
+      - *53
+      children: []
+    - &138 !ruby/object:Tweet
+      username: SeelenKrieg
+      id: 433617193067364352
+      location: 
+      created_at: 2014-02-12 10:02:49.000000000 -05:00
+      url: https://twitter.com/SeelenKrieg/status/433617193067364352
+      parents:
+      - *53
+      children: []
+    - &139 !ruby/object:Tweet
+      username: Cybnext
+      id: 433614648017833984
+      location: 
+      created_at: 2014-02-12 09:52:42.000000000 -05:00
+      url: https://twitter.com/Cybnext/status/433614648017833984
+      parents:
+      - *53
+      children: []
+    - &140 !ruby/object:Tweet
+      username: ZegertvdLinde
+      id: 433613691289079808
+      location: 
+      created_at: 2014-02-12 09:48:54.000000000 -05:00
+      url: https://twitter.com/ZegertvdLinde/status/433613691289079808
+      parents:
+      - *53
+      children: []
+    - &141 !ruby/object:Tweet
+      username: ghvanderweg
+      id: 433612875781791744
+      location: 
+      created_at: 2014-02-12 09:45:40.000000000 -05:00
+      url: https://twitter.com/ghvanderweg/status/433612875781791744
+      parents:
+      - *53
+      children: []
+    - &142 !ruby/object:Tweet
+      username: peremenov
+      id: 433600334767079424
+      location: 
+      created_at: 2014-02-12 08:55:50.000000000 -05:00
+      url: https://twitter.com/peremenov/status/433600334767079424
+      parents:
+      - *53
+      children: []
+    - &143 !ruby/object:Tweet
+      username: ap00rv
+      id: 433589702914875392
+      location: 
+      created_at: 2014-02-12 08:13:35.000000000 -05:00
+      url: https://twitter.com/ap00rv/status/433589702914875392
+      parents:
+      - *53
+      children: []
+    - &54 !ruby/object:Tweet
+      username: TVLuke
+      id: 433585184693178368
+      location: 
+      created_at: 2014-02-12 07:55:38.000000000 -05:00
+      url: https://twitter.com/TVLuke/status/433585184693178368
+      parents:
+      - *53
+      children:
+      - &55 !ruby/object:Tweet
+        username: TVLuke
+        id: 433585184693178368
+        location: 
+        created_at: 2014-02-12 07:55:38.000000000 -05:00
+        url: https://twitter.com/TVLuke/status/433585184693178368
+        parents:
+        - *54
+        children:
+        - &56 !ruby/object:Tweet
+          username: TVLuke
+          id: 433585184693178368
+          location: 
+          created_at: 2014-02-12 07:55:38.000000000 -05:00
+          url: https://twitter.com/TVLuke/status/433585184693178368
+          parents:
+          - *55
+          children:
+          - &57 !ruby/object:Tweet
+            username: TVLuke
+            id: 433585184693178368
+            location: 
+            created_at: 2014-02-12 07:55:38.000000000 -05:00
+            url: https://twitter.com/TVLuke/status/433585184693178368
+            parents:
+            - *56
+            children:
+            - &58 !ruby/object:Tweet
+              username: TVLuke
+              id: 433585184693178368
+              location: 
+              created_at: 2014-02-12 07:55:38.000000000 -05:00
+              url: https://twitter.com/TVLuke/status/433585184693178368
+              parents:
+              - *57
+              children:
+              - &59 !ruby/object:Tweet
+                username: TVLuke
+                id: 433585184693178368
+                location: 
+                created_at: 2014-02-12 07:55:38.000000000 -05:00
+                url: https://twitter.com/TVLuke/status/433585184693178368
+                parents:
+                - *58
+                children:
+                - &60 !ruby/object:Tweet
+                  username: TVLuke
+                  id: 433585184693178368
+                  location: 
+                  created_at: 2014-02-12 07:55:38.000000000 -05:00
+                  url: https://twitter.com/TVLuke/status/433585184693178368
+                  parents:
+                  - *59
+                  children:
+                  - &61 !ruby/object:Tweet
+                    username: TVLuke
+                    id: 433585184693178368
+                    location: 
+                    created_at: 2014-02-12 07:55:38.000000000 -05:00
+                    url: https://twitter.com/TVLuke/status/433585184693178368
+                    parents:
+                    - *60
+                    children:
+                    - &62 !ruby/object:Tweet
+                      username: TVLuke
+                      id: 433585184693178368
+                      location: 
+                      created_at: 2014-02-12 07:55:38.000000000 -05:00
+                      url: https://twitter.com/TVLuke/status/433585184693178368
+                      parents:
+                      - *61
+                      children:
+                      - &63 !ruby/object:Tweet
+                        username: TVLuke
+                        id: 433585184693178368
+                        location: 
+                        created_at: 2014-02-12 07:55:38.000000000 -05:00
+                        url: https://twitter.com/TVLuke/status/433585184693178368
+                        parents:
+                        - *62
+                        children:
+                        - &64 !ruby/object:Tweet
+                          username: TVLuke
+                          id: 433585184693178368
+                          location: 
+                          created_at: 2014-02-12 07:55:38.000000000 -05:00
+                          url: https://twitter.com/TVLuke/status/433585184693178368
+                          parents:
+                          - *63
+                          children:
+                          - &65 !ruby/object:Tweet
+                            username: TVLuke
+                            id: 433585184693178368
+                            location: 
+                            created_at: 2014-02-12 07:55:38.000000000 -05:00
+                            url: https://twitter.com/TVLuke/status/433585184693178368
+                            parents:
+                            - *64
+                            children:
+                            - &66 !ruby/object:Tweet
+                              username: TVLuke
+                              id: 433585184693178368
+                              location: 
+                              created_at: 2014-02-12 07:55:38.000000000 -05:00
+                              url: https://twitter.com/TVLuke/status/433585184693178368
+                              parents:
+                              - *65
+                              children:
+                              - &67 !ruby/object:Tweet
+                                username: TVLuke
+                                id: 433585184693178368
+                                location: 
+                                created_at: 2014-02-12 07:55:38.000000000 -05:00
+                                url: https://twitter.com/TVLuke/status/433585184693178368
+                                parents:
+                                - *66
+                                children:
+                                - &237 !ruby/object:Tweet
+                                  username: TVLuke
+                                  id: 433585184693178368
+                                  location: 
+                                  created_at: 2014-02-12 07:55:38.000000000 -05:00
+                                  url: https://twitter.com/TVLuke/status/433585184693178368
+                                  parents:
+                                  - *67
+                                  children: []
+    - &144 !ruby/object:Tweet
+      username: moebile
+      id: 433580063410229248
+      location: 
+      created_at: 2014-02-12 07:35:17.000000000 -05:00
+      url: https://twitter.com/moebile/status/433580063410229248
+      parents:
+      - *53
+      children: []
+    - &145 !ruby/object:Tweet
+      username: TorbenSchultz
+      id: 433576635778871296
+      location: 
+      created_at: 2014-02-12 07:21:40.000000000 -05:00
+      url: https://twitter.com/TorbenSchultz/status/433576635778871296
+      parents:
+      - *53
+      children: []
+    - &146 !ruby/object:Tweet
+      username: YaManicKill
+      id: 433571136878551040
+      location: 
+      created_at: 2014-02-12 06:59:49.000000000 -05:00
+      url: https://twitter.com/YaManicKill/status/433571136878551040
+      parents:
+      - *53
+      children: []
+    - &147 !ruby/object:Tweet
+      username: Ertraeglichkeit
+      id: 433559972895412225
+      location: 
+      created_at: 2014-02-12 06:15:27.000000000 -05:00
+      url: https://twitter.com/Ertraeglichkeit/status/433559972895412225
+      parents:
+      - *53
+      children: []
+    - &148 !ruby/object:Tweet
+      username: FBeuster
+      id: 433554045081767936
+      location: 
+      created_at: 2014-02-12 05:51:54.000000000 -05:00
+      url: https://twitter.com/FBeuster/status/433554045081767936
+      parents:
+      - *53
+      children: []
+    - &149 !ruby/object:Tweet
+      username: Nepomuk
+      id: 433553743179567105
+      location: 
+      created_at: 2014-02-12 05:50:42.000000000 -05:00
+      url: https://twitter.com/Nepomuk/status/433553743179567105
+      parents:
+      - *53
+      children: []
+    - &150 !ruby/object:Tweet
+      username: scoux
+      id: 433552145011331072
+      location: 
+      created_at: 2014-02-12 05:44:21.000000000 -05:00
+      url: https://twitter.com/scoux/status/433552145011331072
+      parents:
+      - *53
+      children: []
+    - &151 !ruby/object:Tweet
+      username: honnel
+      id: 433533159246790658
+      location: 
+      created_at: 2014-02-12 04:28:54.000000000 -05:00
+      url: https://twitter.com/honnel/status/433533159246790658
+      parents:
+      - *53
+      children: []
+    - &152 !ruby/object:Tweet
+      username: kwasbeb
+      id: 433532378653261825
+      location: 
+      created_at: 2014-02-12 04:25:48.000000000 -05:00
+      url: https://twitter.com/kwasbeb/status/433532378653261825
+      parents:
+      - *53
+      children: []
+    - &153 !ruby/object:Tweet
+      username: bigup2dance
+      id: 433530690701774849
+      location: 
+      created_at: 2014-02-12 04:19:05.000000000 -05:00
+      url: https://twitter.com/bigup2dance/status/433530690701774849
+      parents:
+      - *53
+      children: []
+    - &154 !ruby/object:Tweet
+      username: matmannion
+      id: 433530511664091136
+      location: 
+      created_at: 2014-02-12 04:18:23.000000000 -05:00
+      url: https://twitter.com/matmannion/status/433530511664091136
+      parents:
+      - *53
+      children: []
+    - &155 !ruby/object:Tweet
+      username: sr_rolando
+      id: 433527103045505024
+      location: 
+      created_at: 2014-02-12 04:04:50.000000000 -05:00
+      url: https://twitter.com/sr_rolando/status/433527103045505024
+      parents:
+      - *53
+      children: []
+    - &156 !ruby/object:Tweet
+      username: VTPG
+      id: 433526966801530880
+      location: 
+      created_at: 2014-02-12 04:04:18.000000000 -05:00
+      url: https://twitter.com/VTPG/status/433526966801530880
+      parents:
+      - *53
+      children: []
+    - &157 !ruby/object:Tweet
+      username: WimpyLion
+      id: 433523840698703872
+      location: 
+      created_at: 2014-02-12 03:51:52.000000000 -05:00
+      url: https://twitter.com/WimpyLion/status/433523840698703872
+      parents:
+      - *53
+      children: []
+    - &158 !ruby/object:Tweet
+      username: Dronacharya_
+      id: 433523614285983744
+      location: 
+      created_at: 2014-02-12 03:50:58.000000000 -05:00
+      url: https://twitter.com/Dronacharya_/status/433523614285983744
+      parents:
+      - *53
+      children: []
+    - &159 !ruby/object:Tweet
+      username: sufw
+      id: 433518907584823296
+      location: 
+      created_at: 2014-02-12 03:32:16.000000000 -05:00
+      url: https://twitter.com/sufw/status/433518907584823296
+      parents:
+      - *53
+      children: []
+    - &160 !ruby/object:Tweet
+      username: AH_Patjay
+      id: 433517430141231104
+      location: 
+      created_at: 2014-02-12 03:26:24.000000000 -05:00
+      url: https://twitter.com/AH_Patjay/status/433517430141231104
+      parents:
+      - *53
+      children: []
+    - &161 !ruby/object:Tweet
+      username: ashaolinmonkey
+      id: 433505380417556480
+      location: 
+      created_at: 2014-02-12 02:38:31.000000000 -05:00
+      url: https://twitter.com/ashaolinmonkey/status/433505380417556480
+      parents:
+      - *53
+      children: []
+    - &162 !ruby/object:Tweet
+      username: rocky_upadhaya
+      id: 433496886188576768
+      location: 
+      created_at: 2014-02-12 02:04:46.000000000 -05:00
+      url: https://twitter.com/rocky_upadhaya/status/433496886188576768
+      parents:
+      - *53
+      children: []
+    - &163 !ruby/object:Tweet
+      username: DTSpawn
+      id: 433492061551984640
+      location: 
+      created_at: 2014-02-12 01:45:36.000000000 -05:00
+      url: https://twitter.com/DTSpawn/status/433492061551984640
+      parents:
+      - *53
+      children: []
+    - &164 !ruby/object:Tweet
+      username: kevinchen
+      id: 433486562735960064
+      location: 
+      created_at: 2014-02-12 01:23:45.000000000 -05:00
+      url: https://twitter.com/kevinchen/status/433486562735960064
+      parents:
+      - *53
+      children: []
+    - &165 !ruby/object:Tweet
+      username: diaporesis
+      id: 433481627725864960
+      location: 
+      created_at: 2014-02-12 01:04:08.000000000 -05:00
+      url: https://twitter.com/diaporesis/status/433481627725864960
+      parents:
+      - *53
+      children: []
+    - &166 !ruby/object:Tweet
+      username: TheChrisGlass
+      id: 433480785824215040
+      location: 
+      created_at: 2014-02-12 01:00:47.000000000 -05:00
+      url: https://twitter.com/TheChrisGlass/status/433480785824215040
+      parents:
+      - *53
+      children: []
+    - &167 !ruby/object:Tweet
+      username: gibberishmock
+      id: 433480644589785088
+      location: 
+      created_at: 2014-02-12 01:00:14.000000000 -05:00
+      url: https://twitter.com/gibberishmock/status/433480644589785088
+      parents:
+      - *53
+      children: []
+    - &168 !ruby/object:Tweet
+      username: gibberishmock
+      id: 433480475579916288
+      location: 
+      created_at: 2014-02-12 00:59:33.000000000 -05:00
+      url: https://twitter.com/gibberishmock/status/433480475579916288
+      parents:
+      - *53
+      children: []
+    - &169 !ruby/object:Tweet
+      username: vipulsatya
+      id: 433479833348091904
+      location: 
+      created_at: 2014-02-12 00:57:00.000000000 -05:00
+      url: https://twitter.com/vipulsatya/status/433479833348091904
+      parents:
+      - *53
+      children: []
+    - &170 !ruby/object:Tweet
+      username: winfield
+      id: 433478833623142401
+      location: 
+      created_at: 2014-02-12 00:53:02.000000000 -05:00
+      url: https://twitter.com/winfield/status/433478833623142401
+      parents:
+      - *53
+      children: []
+    - &171 !ruby/object:Tweet
+      username: MogKnight
+      id: 433470119033835520
+      location: 
+      created_at: 2014-02-12 00:18:24.000000000 -05:00
+      url: https://twitter.com/MogKnight/status/433470119033835520
+      parents:
+      - *53
+      children: []
+    - &172 !ruby/object:Tweet
+      username: MatlockJAB
+      id: 433467887878017024
+      location: 
+      created_at: 2014-02-12 00:09:32.000000000 -05:00
+      url: https://twitter.com/MatlockJAB/status/433467887878017024
+      parents:
+      - *53
+      children: []
+    - &68 !ruby/object:Tweet
+      username: JDotLeezy
+      id: 433440175637921792
+      location: 
+      created_at: 2014-02-11 22:19:25.000000000 -05:00
+      url: https://twitter.com/JDotLeezy/status/433440175637921792
+      parents:
+      - *53
+      children:
+      - &173 !ruby/object:Tweet
+        username: LAmeetsDC
+        id: 433440328662917120
+        location: 
+        created_at: 2014-02-11 22:20:01.000000000 -05:00
+        url: https://twitter.com/LAmeetsDC/status/433440328662917120
+        parents:
+        - *68
+        children: []
+    - &69 !ruby/object:Tweet
+      username: redsteeze
+      id: 433250487404879872
+      location: 
+      created_at: 2014-02-11 09:45:40.000000000 -05:00
+      url: https://twitter.com/redsteeze/status/433250487404879872
+      parents:
+      - *53
+      children:
+      - &70 !ruby/object:Tweet
+        username: LeonHWolf
+        id: 433250987801718784
+        location: 
+        created_at: 2014-02-11 09:47:39.000000000 -05:00
+        url: https://twitter.com/LeonHWolf/status/433250987801718784
+        parents:
+        - *69
+        children:
+        - &174 !ruby/object:Tweet
+          username: chrissarda
+          id: 433684568982695936
+          location: 
+          created_at: 2014-02-12 14:30:33.000000000 -05:00
+          url: https://twitter.com/chrissarda/status/433684568982695936
+          parents:
+          - *70
+          children: []
+        - &175 !ruby/object:Tweet
+          username: anaphysik
+          id: 433544609315041281
+          location: 
+          created_at: 2014-02-12 05:14:24.000000000 -05:00
+          url: https://twitter.com/anaphysik/status/433544609315041281
+          parents:
+          - *70
+          children: []
+        - &176 !ruby/object:Tweet
+          username: burtlikko
+          id: 433398462554468352
+          location: 
+          created_at: 2014-02-11 19:33:40.000000000 -05:00
+          url: https://twitter.com/burtlikko/status/433398462554468352
+          parents:
+          - *70
+          children: []
+        - &177 !ruby/object:Tweet
+          username: therealjavery
+          id: 433253407324110848
+          location: 
+          created_at: 2014-02-11 09:57:16.000000000 -05:00
+          url: https://twitter.com/therealjavery/status/433253407324110848
+          parents:
+          - *70
+          children: []
+        - &71 !ruby/object:Tweet
+          username: Popehat
+          id: 433251577726398464
+          location: 
+          created_at: 2014-02-11 09:50:00.000000000 -05:00
+          url: https://twitter.com/Popehat/status/433251577726398464
+          parents:
+          - *70
+          children:
+          - &72 !ruby/object:Tweet
+            username: Maggie_McNeill
+            id: 433262116871471104
+            location: 
+            created_at: 2014-02-11 10:31:52.000000000 -05:00
+            url: https://twitter.com/Maggie_McNeill/status/433262116871471104
+            parents:
+            - *71
+            children:
+            - &185 !ruby/object:Tweet
+              username: WilsonKM2
+              id: 433273470483693569
+              location: 
+              created_at: 2014-02-11 11:16:59.000000000 -05:00
+              url: https://twitter.com/WilsonKM2/status/433273470483693569
+              parents:
+              - *72
+              children: []
+            - &186 !ruby/object:Tweet
+              username: Hal_RTFLC
+              id: 433264008930414592
+              location: 
+              created_at: 2014-02-11 10:39:24.000000000 -05:00
+              url: https://twitter.com/Hal_RTFLC/status/433264008930414592
+              parents:
+              - *72
+              children: []
+            - &187 !ruby/object:Tweet
+              username: gideonstrumpet
+              id: 433263584903458816
+              location: 
+              created_at: 2014-02-11 10:37:42.000000000 -05:00
+              url: https://twitter.com/gideonstrumpet/status/433263584903458816
+              parents:
+              - *72
+              children: []
+            - &73 !ruby/object:Tweet
+              username: DrPhilofEconomi
+              id: 433262784290123776
+              location: 
+              created_at: 2014-02-11 10:34:32.000000000 -05:00
+              url: https://twitter.com/DrPhilofEconomi/status/433262784290123776
+              parents:
+              - *72
+              children:
+              - &191 !ruby/object:Tweet
+                username: smuttynosebabs
+                id: 433371188677464064
+                location: 
+                created_at: 2014-02-11 17:45:17.000000000 -05:00
+                url: https://twitter.com/smuttynosebabs/status/433371188677464064
+                parents:
+                - *73
+                children: []
+              - &192 !ruby/object:Tweet
+                username: Celt_Englishman
+                id: 433291901891280896
+                location: 
+                created_at: 2014-02-11 12:30:14.000000000 -05:00
+                url: https://twitter.com/Celt_Englishman/status/433291901891280896
+                parents:
+                - *73
+                children: []
+              - &193 !ruby/object:Tweet
+                username: seattle_sanchez
+                id: 433275320826068993
+                location: 
+                created_at: 2014-02-11 11:24:21.000000000 -05:00
+                url: https://twitter.com/seattle_sanchez/status/433275320826068993
+                parents:
+                - *73
+                children: []
+              - &74 !ruby/object:Tweet
+                username: fakedansavage
+                id: 433274299558809600
+                location: 
+                created_at: 2014-02-11 11:20:17.000000000 -05:00
+                url: https://twitter.com/fakedansavage/status/433274299558809600
+                parents:
+                - *73
+                children:
+                - &195 !ruby/object:Tweet
+                  username: Roddy_Campbell
+                  id: 433318550174842880
+                  location: 
+                  created_at: 2014-02-11 14:16:07.000000000 -05:00
+                  url: https://twitter.com/Roddy_Campbell/status/433318550174842880
+                  parents:
+                  - *74
+                  children: []
+                - &75 !ruby/object:Tweet
+                  username: Honest_Catesan
+                  id: 433309427970502656
+                  location: 
+                  created_at: 2014-02-11 13:39:52.000000000 -05:00
+                  url: https://twitter.com/Honest_Catesan/status/433309427970502656
+                  parents:
+                  - *74
+                  children:
+                  - &205 !ruby/object:Tweet
+                    username: eddiejc1
+                    id: 433394227339198464
+                    location: 
+                    created_at: 2014-02-11 19:16:50.000000000 -05:00
+                    url: https://twitter.com/eddiejc1/status/433394227339198464
+                    parents:
+                    - *75
+                    children: []
+                - &196 !ruby/object:Tweet
+                  username: BrianHodges
+                  id: 433303859742519296
+                  location: 
+                  created_at: 2014-02-11 13:17:45.000000000 -05:00
+                  url: https://twitter.com/BrianHodges/status/433303859742519296
+                  parents:
+                  - *74
+                  children: []
+                - &197 !ruby/object:Tweet
+                  username: chippy87
+                  id: 433285649391579136
+                  location: 
+                  created_at: 2014-02-11 12:05:23.000000000 -05:00
+                  url: https://twitter.com/chippy87/status/433285649391579136
+                  parents:
+                  - *74
+                  children: []
+                - &198 !ruby/object:Tweet
+                  username: eddiejc1
+                  id: 433281963101663232
+                  location: 
+                  created_at: 2014-02-11 11:50:44.000000000 -05:00
+                  url: https://twitter.com/eddiejc1/status/433281963101663232
+                  parents:
+                  - *74
+                  children: []
+          - &178 !ruby/object:Tweet
+            username: joemfb
+            id: 433261010288652288
+            location: 
+            created_at: 2014-02-11 10:27:29.000000000 -05:00
+            url: https://twitter.com/joemfb/status/433261010288652288
+            parents:
+            - *71
+            children: []
+          - &179 !ruby/object:Tweet
+            username: ptconroy
+            id: 433260776170610690
+            location: 
+            created_at: 2014-02-11 10:26:33.000000000 -05:00
+            url: https://twitter.com/ptconroy/status/433260776170610690
+            parents:
+            - *71
+            children: []
+          - &180 !ruby/object:Tweet
+            username: CatholicMomVA
+            id: 433258160237707264
+            location: 
+            created_at: 2014-02-11 10:16:09.000000000 -05:00
+            url: https://twitter.com/CatholicMomVA/status/433258160237707264
+            parents:
+            - *71
+            children: []
+          - &181 !ruby/object:Tweet
+            username: TyreJim
+            id: 433255359415738368
+            location: 
+            created_at: 2014-02-11 10:05:01.000000000 -05:00
+            url: https://twitter.com/TyreJim/status/433255359415738368
+            parents:
+            - *71
+            children: []
+          - &182 !ruby/object:Tweet
+            username: doranb
+            id: 433254002000556032
+            location: 
+            created_at: 2014-02-11 09:59:38.000000000 -05:00
+            url: https://twitter.com/doranb/status/433254002000556032
+            parents:
+            - *71
+            children: []
+          - &183 !ruby/object:Tweet
+            username: Captien5
+            id: 433253159218065408
+            location: 
+            created_at: 2014-02-11 09:56:17.000000000 -05:00
+            url: https://twitter.com/Captien5/status/433253159218065408
+            parents:
+            - *71
+            children: []
+          - &76 !ruby/object:Tweet
+            username: GeeCaret2
+            id: 433252450917568512
+            location: 
+            created_at: 2014-02-11 09:53:28.000000000 -05:00
+            url: https://twitter.com/GeeCaret2/status/433252450917568512
+            parents:
+            - *71
+            children:
+            - &188 !ruby/object:Tweet
+              username: madmup
+              id: 433260860157345792
+              location: 
+              created_at: 2014-02-11 10:26:53.000000000 -05:00
+              url: https://twitter.com/madmup/status/433260860157345792
+              parents:
+              - *76
+              children: []
+          - &77 !ruby/object:Tweet
+            username: moelane
+            id: 433252368189497344
+            location: 
+            created_at: 2014-02-11 09:53:08.000000000 -05:00
+            url: https://twitter.com/moelane/status/433252368189497344
+            parents:
+            - *71
+            children:
+            - &189 !ruby/object:Tweet
+              username: rlh
+              id: 433345160752005120
+              location: 
+              created_at: 2014-02-11 16:01:52.000000000 -05:00
+              url: https://twitter.com/rlh/status/433345160752005120
+              parents:
+              - *77
+              children: []
+            - &190 !ruby/object:Tweet
+              username: jmdblog
+              id: 433263559506546688
+              location: 
+              created_at: 2014-02-11 10:37:36.000000000 -05:00
+              url: https://twitter.com/jmdblog/status/433263559506546688
+              parents:
+              - *77
+              children: []
+            - &78 !ruby/object:Tweet
+              username: Neal_Dewing
+              id: 433259154980220929
+              location: 
+              created_at: 2014-02-11 10:20:06.000000000 -05:00
+              url: https://twitter.com/Neal_Dewing/status/433259154980220929
+              parents:
+              - *77
+              children:
+              - &79 !ruby/object:Tweet
+                username: my_synthesizer
+                id: 433323265994403840
+                location: 
+                created_at: 2014-02-11 14:34:52.000000000 -05:00
+                url: https://twitter.com/my_synthesizer/status/433323265994403840
+                parents:
+                - *78
+                children:
+                - &199 !ruby/object:Tweet
+                  username: BudgetYachtsman
+                  id: 433347715578089472
+                  location: 
+                  created_at: 2014-02-11 16:12:01.000000000 -05:00
+                  url: https://twitter.com/BudgetYachtsman/status/433347715578089472
+                  parents:
+                  - *79
+                  children: []
+              - &80 !ruby/object:Tweet
+                username: MikeCGannon
+                id: 433263701635129345
+                location: 
+                created_at: 2014-02-11 10:38:10.000000000 -05:00
+                url: https://twitter.com/MikeCGannon/status/433263701635129345
+                parents:
+                - *78
+                children:
+                - &200 !ruby/object:Tweet
+                  username: stephandstuff
+                  id: 433264156071182336
+                  location: 
+                  created_at: 2014-02-11 10:39:59.000000000 -05:00
+                  url: https://twitter.com/stephandstuff/status/433264156071182336
+                  parents:
+                  - *80
+                  children: []
+              - &81 !ruby/object:Tweet
+                username: RBPundit
+                id: 433259587139940352
+                location: 
+                created_at: 2014-02-11 10:21:49.000000000 -05:00
+                url: https://twitter.com/RBPundit/status/433259587139940352
+                parents:
+                - *78
+                children:
+                - &201 !ruby/object:Tweet
+                  username: kotik_narkotlk
+                  id: 433636613172625408
+                  location: 
+                  created_at: 2014-02-12 11:19:59.000000000 -05:00
+                  url: https://twitter.com/kotik_narkotlk/status/433636613172625408
+                  parents:
+                  - *81
+                  children: []
+                - &202 !ruby/object:Tweet
+                  username: mauskopf
+                  id: 433464359549804544
+                  location: 
+                  created_at: 2014-02-11 23:55:31.000000000 -05:00
+                  url: https://twitter.com/mauskopf/status/433464359549804544
+                  parents:
+                  - *81
+                  children: []
+                - &203 !ruby/object:Tweet
+                  username: NatesMama1128
+                  id: 433438063646490624
+                  location: 
+                  created_at: 2014-02-11 22:11:01.000000000 -05:00
+                  url: https://twitter.com/NatesMama1128/status/433438063646490624
+                  parents:
+                  - *81
+                  children: []
+                - &82 !ruby/object:Tweet
+                  username: SKSchultz1985
+                  id: 433338541934784512
+                  location: 
+                  created_at: 2014-02-11 15:35:34.000000000 -05:00
+                  url: https://twitter.com/SKSchultz1985/status/433338541934784512
+                  parents:
+                  - *81
+                  children:
+                  - &206 !ruby/object:Tweet
+                    username: ChurchJudge
+                    id: 433373628034334720
+                    location: 
+                    created_at: 2014-02-11 17:54:59.000000000 -05:00
+                    url: https://twitter.com/ChurchJudge/status/433373628034334720
+                    parents:
+                    - *82
+                    children: []
+                  - &83 !ruby/object:Tweet
+                    username: SSeminarian
+                    id: 433340789985271808
+                    location: 
+                    created_at: 2014-02-11 15:44:30.000000000 -05:00
+                    url: https://twitter.com/SSeminarian/status/433340789985271808
+                    parents:
+                    - *82
+                    children:
+                    - &84 !ruby/object:Tweet
+                      username: chattytamster
+                      id: 433371716996177920
+                      location: 
+                      created_at: 2014-02-11 17:47:23.000000000 -05:00
+                      url: https://twitter.com/chattytamster/status/433371716996177920
+                      parents:
+                      - *83
+                      children:
+                      - &212 !ruby/object:Tweet
+                        username: revdeniseppc
+                        id: 433381228490665984
+                        location: 
+                        created_at: 2014-02-11 18:25:11.000000000 -05:00
+                        url: https://twitter.com/revdeniseppc/status/433381228490665984
+                        parents:
+                        - *84
+                        children: []
+                    - &210 !ruby/object:Tweet
+                      username: pkproblem
+                      id: 433344240504946690
+                      location: 
+                      created_at: 2014-02-11 15:58:12.000000000 -05:00
+                      url: https://twitter.com/pkproblem/status/433344240504946690
+                      parents:
+                      - *83
+                      children: []
+                - &204 !ruby/object:Tweet
+                  username: McShauno
+                  id: 433260024744665088
+                  location: 
+                  created_at: 2014-02-11 10:23:34.000000000 -05:00
+                  url: https://twitter.com/McShauno/status/433260024744665088
+                  parents:
+                  - *81
+                  children: []
+                - &85 !ruby/object:Tweet
+                  username: BenK84
+                  id: 433259921409196032
+                  location: 
+                  created_at: 2014-02-11 10:23:09.000000000 -05:00
+                  url: https://twitter.com/BenK84/status/433259921409196032
+                  parents:
+                  - *81
+                  children:
+                  - &207 !ruby/object:Tweet
+                    username: Buckeyesales
+                    id: 433334474764324865
+                    location: 
+                    created_at: 2014-02-11 15:19:24.000000000 -05:00
+                    url: https://twitter.com/Buckeyesales/status/433334474764324865
+                    parents:
+                    - *85
+                    children: []
+                  - &208 !ruby/object:Tweet
+                    username: CHBilhorn
+                    id: 433326559647117314
+                    location: 
+                    created_at: 2014-02-11 14:47:57.000000000 -05:00
+                    url: https://twitter.com/CHBilhorn/status/433326559647117314
+                    parents:
+                    - *85
+                    children: []
+                  - &86 !ruby/object:Tweet
+                    username: AceofSpadesHQ
+                    id: 433326472070057984
+                    location: 
+                    created_at: 2014-02-11 14:47:36.000000000 -05:00
+                    url: https://twitter.com/AceofSpadesHQ/status/433326472070057984
+                    parents:
+                    - *85
+                    children:
+                    - &87 !ruby/object:Tweet
+                      username: Zaklog
+                      id: 433357776052420609
+                      location: 
+                      created_at: 2014-02-11 16:51:59.000000000 -05:00
+                      url: https://twitter.com/Zaklog/status/433357776052420609
+                      parents:
+                      - *86
+                      children:
+                      - &213 !ruby/object:Tweet
+                        username: MikeHassinger
+                        id: 433359182901698561
+                        location: 
+                        created_at: 2014-02-11 16:57:35.000000000 -05:00
+                        url: https://twitter.com/MikeHassinger/status/433359182901698561
+                        parents:
+                        - *87
+                        children: []
+                      - &88 !ruby/object:Tweet
+                        username: IMAO_
+                        id: 433358907637919745
+                        location: 
+                        created_at: 2014-02-11 16:56:29.000000000 -05:00
+                        url: https://twitter.com/IMAO_/status/433358907637919745
+                        parents:
+                        - *87
+                        children:
+                        - &214 !ruby/object:Tweet
+                          username: TheWesKirk
+                          id: 433439738268516352
+                          location: 
+                          created_at: 2014-02-11 22:17:41.000000000 -05:00
+                          url: https://twitter.com/TheWesKirk/status/433439738268516352
+                          parents:
+                          - *88
+                          children: []
+                        - &215 !ruby/object:Tweet
+                          username: TheWesKirk
+                          id: 433359479820656640
+                          location: 
+                          created_at: 2014-02-11 16:58:46.000000000 -05:00
+                          url: https://twitter.com/TheWesKirk/status/433359479820656640
+                          parents:
+                          - *88
+                          children: []
+                    - &211 !ruby/object:Tweet
+                      username: prosehaikus
+                      id: 433339164944109568
+                      location: 
+                      created_at: 2014-02-11 15:38:02.000000000 -05:00
+                      url: https://twitter.com/prosehaikus/status/433339164944109568
+                      parents:
+                      - *86
+                      children: []
+                    - &89 !ruby/object:Tweet
+                      username: fuegote
+                      id: 433327431378694145
+                      location: 
+                      created_at: 2014-02-11 14:51:25.000000000 -05:00
+                      url: https://twitter.com/fuegote/status/433327431378694145
+                      parents:
+                      - *86
+                      children:
+                      - &90 !ruby/object:Tweet
+                        username: dannyboi965
+                        id: 433436427125137408
+                        location: 
+                        created_at: 2014-02-11 22:04:31.000000000 -05:00
+                        url: https://twitter.com/dannyboi965/status/433436427125137408
+                        parents:
+                        - *89
+                        children:
+                        - &91 !ruby/object:Tweet
+                          username: dwjones712
+                          id: 433438024689414145
+                          location: 
+                          created_at: 2014-02-11 22:10:52.000000000 -05:00
+                          url: https://twitter.com/dwjones712/status/433438024689414145
+                          parents:
+                          - *90
+                          children:
+                          - &220 !ruby/object:Tweet
+                            username: PYPX
+                            id: 433438750773768192
+                            location: 
+                            created_at: 2014-02-11 22:13:45.000000000 -05:00
+                            url: https://twitter.com/PYPX/status/433438750773768192
+                            parents:
+                            - *91
+                            children: []
+                        - &216 !ruby/object:Tweet
+                          username: jennycash162
+                          id: 433437599823167488
+                          location: 
+                          created_at: 2014-02-11 22:09:11.000000000 -05:00
+                          url: https://twitter.com/jennycash162/status/433437599823167488
+                          parents:
+                          - *90
+                          children: []
+                      - &92 !ruby/object:Tweet
+                        username: BenHowe
+                        id: 433339087320133633
+                        location: 
+                        created_at: 2014-02-11 15:37:44.000000000 -05:00
+                        url: https://twitter.com/BenHowe/status/433339087320133633
+                        parents:
+                        - *89
+                        children:
+                        - &217 !ruby/object:Tweet
+                          username: Debloper
+                          id: 433589737245249536
+                          location: 
+                          created_at: 2014-02-12 08:13:43.000000000 -05:00
+                          url: https://twitter.com/Debloper/status/433589737245249536
+                          parents:
+                          - *92
+                          children: []
+                        - &218 !ruby/object:Tweet
+                          username: Micky_Finn
+                          id: 433343089407565827
+                          location: 
+                          created_at: 2014-02-11 15:53:38.000000000 -05:00
+                          url: https://twitter.com/Micky_Finn/status/433343089407565827
+                          parents:
+                          - *92
+                          children: []
+                        - &219 !ruby/object:Tweet
+                          username: TabithaHale
+                          id: 433341430979764225
+                          location: 
+                          created_at: 2014-02-11 15:47:02.000000000 -05:00
+                          url: https://twitter.com/TabithaHale/status/433341430979764225
+                          parents:
+                          - *92
+                          children: []
+                        - &93 !ruby/object:Tweet
+                          username: okmaher
+                          id: 433340722834464769
+                          location: 
+                          created_at: 2014-02-11 15:44:14.000000000 -05:00
+                          url: https://twitter.com/okmaher/status/433340722834464769
+                          parents:
+                          - *92
+                          children:
+                          - &221 !ruby/object:Tweet
+                            username: jlocke613
+                            id: 433355790494081024
+                            location: 
+                            created_at: 2014-02-11 16:44:06.000000000 -05:00
+                            url: https://twitter.com/jlocke613/status/433355790494081024
+                            parents:
+                            - *93
+                            children: []
+                          - &94 !ruby/object:Tweet
+                            username: leighblue
+                            id: 433342865293324289
+                            location: 
+                            created_at: 2014-02-11 15:52:44.000000000 -05:00
+                            url: https://twitter.com/leighblue/status/433342865293324289
+                            parents:
+                            - *93
+                            children:
+                            - &225 !ruby/object:Tweet
+                              username: therealBGS
+                              id: 433351100997967873
+                              location: 
+                              created_at: 2014-02-11 16:25:28.000000000 -05:00
+                              url: https://twitter.com/therealBGS/status/433351100997967873
+                              parents:
+                              - *94
+                              children: []
+                        - &95 !ruby/object:Tweet
+                          username: lachlan
+                          id: 433339253871742976
+                          location: 
+                          created_at: 2014-02-11 15:38:23.000000000 -05:00
+                          url: https://twitter.com/lachlan/status/433339253871742976
+                          parents:
+                          - *92
+                          children:
+                          - &222 !ruby/object:Tweet
+                            username: JimmyCayne
+                            id: 433789245569110016
+                            location: 
+                            created_at: 2014-02-12 21:26:30.000000000 -05:00
+                            url: https://twitter.com/JimmyCayne/status/433789245569110016
+                            parents:
+                            - *95
+                            children: []
+                          - &223 !ruby/object:Tweet
+                            username: madhurchadha
+                            id: 433476124077592576
+                            location: 
+                            created_at: 2014-02-12 00:42:16.000000000 -05:00
+                            url: https://twitter.com/madhurchadha/status/433476124077592576
+                            parents:
+                            - *95
+                            children: []
+                          - &224 !ruby/object:Tweet
+                            username: ConcenEcon
+                            id: 433344453449773056
+                            location: 
+                            created_at: 2014-02-11 15:59:03.000000000 -05:00
+                            url: https://twitter.com/ConcenEcon/status/433344453449773056
+                            parents:
+                            - *95
+                            children: []
+                          - &96 !ruby/object:Tweet
+                            username: GayPatriot
+                            id: 433339925350465536
+                            location: 
+                            created_at: 2014-02-11 15:41:03.000000000 -05:00
+                            url: https://twitter.com/GayPatriot/status/433339925350465536
+                            parents:
+                            - *95
+                            children:
+                            - &97 !ruby/object:Tweet
+                              username: coolhandschlute
+                              id: 433340833769615360
+                              location: 
+                              created_at: 2014-02-11 15:44:40.000000000 -05:00
+                              url: https://twitter.com/coolhandschlute/status/433340833769615360
+                              parents:
+                              - *96
+                              children:
+                              - &98 !ruby/object:Tweet
+                                username: JohnG405
+                                id: 433351173194534914
+                                location: 
+                                created_at: 2014-02-11 16:25:45.000000000 -05:00
+                                url: https://twitter.com/JohnG405/status/433351173194534914
+                                parents:
+                                - *97
+                                children:
+                                - &238 !ruby/object:Tweet
+                                  username: Aaron_RS
+                                  id: 433351556352598016
+                                  location: 
+                                  created_at: 2014-02-11 16:27:16.000000000 -05:00
+                                  url: https://twitter.com/Aaron_RS/status/433351556352598016
+                                  parents:
+                                  - *98
+                                  children: []
+                                - &239 !ruby/object:Tweet
+                                  username: Matthops82
+                                  id: 433351365776007168
+                                  location: 
+                                  created_at: 2014-02-11 16:26:31.000000000 -05:00
+                                  url: https://twitter.com/Matthops82/status/433351365776007168
+                                  parents:
+                                  - *98
+                                  children: []
+                          - &99 !ruby/object:Tweet
+                            username: baseballcrank
+                            id: 433339338386993154
+                            location: 
+                            created_at: 2014-02-11 15:38:43.000000000 -05:00
+                            url: https://twitter.com/baseballcrank/status/433339338386993154
+                            parents:
+                            - *95
+                            children:
+                            - &226 !ruby/object:Tweet
+                              username: rwknopp
+                              id: 433403144169459712
+                              location: 
+                              created_at: 2014-02-11 19:52:16.000000000 -05:00
+                              url: https://twitter.com/rwknopp/status/433403144169459712
+                              parents:
+                              - *99
+                              children: []
+                            - &100 !ruby/object:Tweet
+                              username: Rand_Simberg
+                              id: 433341746714382336
+                              location: 
+                              created_at: 2014-02-11 15:48:18.000000000 -05:00
+                              url: https://twitter.com/Rand_Simberg/status/433341746714382336
+                              parents:
+                              - *99
+                              children:
+                              - &229 !ruby/object:Tweet
+                                username: Simberg_Space
+                                id: 433348439166816256
+                                location: 
+                                created_at: 2014-02-11 16:14:53.000000000 -05:00
+                                url: https://twitter.com/Simberg_Space/status/433348439166816256
+                                parents:
+                                - *100
+                                children: []
+                            - &101 !ruby/object:Tweet
+                              username: Heminator
+                              id: 433340459239235585
+                              location: 
+                              created_at: 2014-02-11 15:43:11.000000000 -05:00
+                              url: https://twitter.com/Heminator/status/433340459239235585
+                              parents:
+                              - *99
+                              children:
+                              - &102 !ruby/object:Tweet
+                                username: sunnyright
+                                id: 433342799241420800
+                                location: 
+                                created_at: 2014-02-11 15:52:29.000000000 -05:00
+                                url: https://twitter.com/sunnyright/status/433342799241420800
+                                parents:
+                                - *101
+                                children:
+                                - &240 !ruby/object:Tweet
+                                  username: Griveau
+                                  id: 433526623246090240
+                                  location: 
+                                  created_at: 2014-02-12 04:02:56.000000000 -05:00
+                                  url: https://twitter.com/Griveau/status/433526623246090240
+                                  parents:
+                                  - *102
+                                  children: []
+                                - &241 !ruby/object:Tweet
+                                  username: DesertedOdds
+                                  id: 433393548067500032
+                                  location: 
+                                  created_at: 2014-02-11 19:14:08.000000000 -05:00
+                                  url: https://twitter.com/DesertedOdds/status/433393548067500032
+                                  parents:
+                                  - *102
+                                  children: []
+                                - &242 !ruby/object:Tweet
+                                  username: BriMonroeCarter
+                                  id: 433392900551241728
+                                  location: 
+                                  created_at: 2014-02-11 19:11:34.000000000 -05:00
+                                  url: https://twitter.com/BriMonroeCarter/status/433392900551241728
+                                  parents:
+                                  - *102
+                                  children: []
+                                - &243 !ruby/object:Tweet
+                                  username: meghoulihan
+                                  id: 433388658524033024
+                                  location: 
+                                  created_at: 2014-02-11 18:54:42.000000000 -05:00
+                                  url: https://twitter.com/meghoulihan/status/433388658524033024
+                                  parents:
+                                  - *102
+                                  children: []
+                                - &244 !ruby/object:Tweet
+                                  username: anthropocon
+                                  id: 433385701317824512
+                                  location: 
+                                  created_at: 2014-02-11 18:42:57.000000000 -05:00
+                                  url: https://twitter.com/anthropocon/status/433385701317824512
+                                  parents:
+                                  - *102
+                                  children: []
+                                - &245 !ruby/object:Tweet
+                                  username: DaveinTexas
+                                  id: 433383789566246912
+                                  location: 
+                                  created_at: 2014-02-11 18:35:21.000000000 -05:00
+                                  url: https://twitter.com/DaveinTexas/status/433383789566246912
+                                  parents:
+                                  - *102
+                                  children: []
+                                - &246 !ruby/object:Tweet
+                                  username: onedadslife
+                                  id: 433383426037534720
+                                  location: 
+                                  created_at: 2014-02-11 18:33:55.000000000 -05:00
+                                  url: https://twitter.com/onedadslife/status/433383426037534720
+                                  parents:
+                                  - *102
+                                  children: []
+                                - &247 !ruby/object:Tweet
+                                  username: ChrisLoesch
+                                  id: 433382639668428801
+                                  location: 
+                                  created_at: 2014-02-11 18:30:47.000000000 -05:00
+                                  url: https://twitter.com/ChrisLoesch/status/433382639668428801
+                                  parents:
+                                  - *102
+                                  children: []
+                              - &230 !ruby/object:Tweet
+                                username: mustango13
+                                id: 433341694281412610
+                                location: 
+                                created_at: 2014-02-11 15:48:05.000000000 -05:00
+                                url: https://twitter.com/mustango13/status/433341694281412610
+                                parents:
+                                - *101
+                                children: []
+                              - &231 !ruby/object:Tweet
+                                username: JoeC_Esquire
+                                id: 433341206160875520
+                                location: 
+                                created_at: 2014-02-11 15:46:09.000000000 -05:00
+                                url: https://twitter.com/JoeC_Esquire/status/433341206160875520
+                                parents:
+                                - *101
+                                children: []
+                              - &232 !ruby/object:Tweet
+                                username: Joelmentum
+                                id: 433340903239852032
+                                location: 
+                                created_at: 2014-02-11 15:44:57.000000000 -05:00
+                                url: https://twitter.com/Joelmentum/status/433340903239852032
+                                parents:
+                                - *101
+                                children: []
+                              - &233 !ruby/object:Tweet
+                                username: lachlan
+                                id: 433340596057415680
+                                location: 
+                                created_at: 2014-02-11 15:43:43.000000000 -05:00
+                                url: https://twitter.com/lachlan/status/433340596057415680
+                                parents:
+                                - *101
+                                children: []
+                            - &227 !ruby/object:Tweet
+                              username: NicoSGonzalez
+                              id: 433340190216556544
+                              location: 
+                              created_at: 2014-02-11 15:42:07.000000000 -05:00
+                              url: https://twitter.com/NicoSGonzalez/status/433340190216556544
+                              parents:
+                              - *99
+                              children: []
+                            - &103 !ruby/object:Tweet
+                              username: charlescwcooke
+                              id: 433339691459284992
+                              location: 
+                              created_at: 2014-02-11 15:40:08.000000000 -05:00
+                              url: https://twitter.com/charlescwcooke/status/433339691459284992
+                              parents:
+                              - *99
+                              children:
+                              - &234 !ruby/object:Tweet
+                                username: webmastercorey
+                                id: 433379575557398528
+                                location: 
+                                created_at: 2014-02-11 18:18:37.000000000 -05:00
+                                url: https://twitter.com/webmastercorey/status/433379575557398528
+                                parents:
+                                - *103
+                                children: []
+                              - &235 !ruby/object:Tweet
+                                username: fmlien
+                                id: 433341704280616960
+                                location: 
+                                created_at: 2014-02-11 15:48:08.000000000 -05:00
+                                url: https://twitter.com/fmlien/status/433341704280616960
+                                parents:
+                                - *103
+                                children: []
+                              - &236 !ruby/object:Tweet
+                                username: Slublog
+                                id: 433340091688161280
+                                location: 
+                                created_at: 2014-02-11 15:41:43.000000000 -05:00
+                                url: https://twitter.com/Slublog/status/433340091688161280
+                                parents:
+                                - *103
+                                children: []
+                            - &228 !ruby/object:Tweet
+                              username: DraftRyan2016
+                              id: 433339655233101824
+                              location: 
+                              created_at: 2014-02-11 15:39:59.000000000 -05:00
+                              url: https://twitter.com/DraftRyan2016/status/433339655233101824
+                              parents:
+                              - *99
+                              children: []
+                  - &209 !ruby/object:Tweet
+                    username: davilch
+                    id: 433260763755446272
+                    location: 
+                    created_at: 2014-02-11 10:26:30.000000000 -05:00
+                    url: https://twitter.com/davilch/status/433260763755446272
+                    parents:
+                    - *85
+                    children: []
+              - &194 !ruby/object:Tweet
+                username: The_Autopen
+                id: 433259572220796928
+                location: 
+                created_at: 2014-02-11 10:21:46.000000000 -05:00
+                url: https://twitter.com/The_Autopen/status/433259572220796928
+                parents:
+                - *78
+                children: []
+          - &184 !ruby/object:Tweet
+            username: leftoutside
+            id: 433252064831893504
+            location: 
+            created_at: 2014-02-11 09:51:56.000000000 -05:00
+            url: https://twitter.com/leftoutside/status/433252064831893504
+            parents:
+            - *71
+            children: []
+- - *53
+  - *104
+- - *53
+  - *105
+- - *53
+  - *106
+- - *53
+  - *107
+- - *53
+  - *108
+- - *53
+  - *109
+- - *53
+  - *110
+- - *53
+  - *111
+- - *53
+  - *112
+- - *53
+  - *113
+- - *53
+  - *114
+- - *53
+  - *115
+- - *53
+  - *116
+- - *53
+  - *117
+- - *53
+  - *118
+- - *53
+  - *119
+- - *53
+  - *120
+- - *53
+  - *121
+- - *53
+  - *122
+- - *53
+  - *123
+- - *53
+  - *124
+- - *53
+  - *125
+- - *53
+  - *126
+- - *53
+  - *127
+- - *53
+  - *128
+- - *53
+  - *129
+- - *53
+  - *130
+- - *53
+  - *131
+- - *53
+  - *132
+- - *53
+  - *133
+- - *53
+  - *134
+- - *53
+  - *135
+- - *53
+  - *136
+- - *53
+  - *137
+- - *53
+  - *138
+- - *53
+  - *139
+- - *53
+  - *140
+- - *53
+  - *141
+- - *53
+  - *142
+- - *53
+  - *143
+- - *53
+  - *54
+- - *53
+  - *144
+- - *53
+  - *145
+- - *53
+  - *146
+- - *53
+  - *147
+- - *53
+  - *148
+- - *53
+  - *149
+- - *53
+  - *150
+- - *53
+  - *151
+- - *53
+  - *152
+- - *53
+  - *153
+- - *53
+  - *154
+- - *53
+  - *155
+- - *53
+  - *156
+- - *53
+  - *157
+- - *53
+  - *158
+- - *53
+  - *159
+- - *53
+  - *160
+- - *53
+  - *161
+- - *53
+  - *162
+- - *53
+  - *163
+- - *53
+  - *164
+- - *53
+  - *165
+- - *53
+  - *166
+- - *53
+  - *167
+- - *53
+  - *168
+- - *53
+  - *169
+- - *53
+  - *170
+- - *53
+  - *171
+- - *53
+  - *172
+- - *53
+  - *68
+- - *53
+  - *69
+- - *54
+  - *55
+- - *68
+  - *173
+- - *69
+  - *70
+- - *55
+  - *56
+- - *70
+  - *174
+- - *70
+  - *175
+- - *70
+  - *176
+- - *70
+  - *177
+- - *70
+  - *71
+- - *56
+  - *57
+- - *71
+  - *72
+- - *71
+  - *178
+- - *71
+  - *179
+- - *71
+  - *180
+- - *71
+  - *181
+- - *71
+  - *182
+- - *71
+  - *183
+- - *71
+  - *76
+- - *71
+  - *77
+- - *71
+  - *184
+- - *57
+  - *58
+- - *72
+  - *185
+- - *72
+  - *186
+- - *72
+  - *187
+- - *72
+  - *73
+- - *76
+  - *188
+- - *77
+  - *189
+- - *77
+  - *190
+- - *77
+  - *78
+- - *58
+  - *59
+- - *73
+  - *191
+- - *73
+  - *192
+- - *73
+  - *193
+- - *73
+  - *74
+- - *78
+  - *79
+- - *78
+  - *80
+- - *78
+  - *81
+- - *78
+  - *194
+- - *59
+  - *60
+- - *74
+  - *195
+- - *74
+  - *75
+- - *74
+  - *196
+- - *74
+  - *197
+- - *74
+  - *198
+- - *79
+  - *199
+- - *80
+  - *200
+- - *81
+  - *201
+- - *81
+  - *202
+- - *81
+  - *203
+- - *81
+  - *82
+- - *81
+  - *204
+- - *81
+  - *85
+- - *60
+  - *61
+- - *75
+  - *205
+- - *82
+  - *206
+- - *82
+  - *83
+- - *85
+  - *207
+- - *85
+  - *208
+- - *85
+  - *86
+- - *85
+  - *209
+- - *61
+  - *62
+- - *83
+  - *84
+- - *83
+  - *210
+- - *86
+  - *87
+- - *86
+  - *211
+- - *86
+  - *89
+- - *62
+  - *63
+- - *84
+  - *212
+- - *87
+  - *213
+- - *87
+  - *88
+- - *89
+  - *90
+- - *89
+  - *92
+- - *63
+  - *64
+- - *88
+  - *214
+- - *88
+  - *215
+- - *90
+  - *91
+- - *90
+  - *216
+- - *92
+  - *217
+- - *92
+  - *218
+- - *92
+  - *219
+- - *92
+  - *93
+- - *92
+  - *95
+- - *64
+  - *65
+- - *91
+  - *220
+- - *93
+  - *221
+- - *93
+  - *94
+- - *95
+  - *222
+- - *95
+  - *223
+- - *95
+  - *224
+- - *95
+  - *96
+- - *95
+  - *99
+- - *65
+  - *66
+- - *94
+  - *225
+- - *96
+  - *97
+- - *99
+  - *226
+- - *99
+  - *100
+- - *99
+  - *101
+- - *99
+  - *227
+- - *99
+  - *103
+- - *99
+  - *228
+- - *66
+  - *67
+- - *97
+  - *98
+- - *100
+  - *229
+- - *101
+  - *102
+- - *101
+  - *230
+- - *101
+  - *231
+- - *101
+  - *232
+- - *101
+  - *233
+- - *103
+  - *234
+- - *103
+  - *235
+- - *103
+  - *236
+- - *67
+  - *237
+- - *98
+  - *238
+- - *98
+  - *239
+- - *102
+  - *240
+- - *102
+  - *241
+- - *102
+  - *242
+- - *102
+  - *243
+- - *102
+  - *244
+- - *102
+  - *245
+- - *102
+  - *246
+- - *102
+  - *247
+visited_tweets:
+- *53
+- *104
+- *105
+- *106
+- *107
+- *108
+- *109
+- *110
+- *111
+- *112
+- *113
+- *114
+- *115
+- *116
+- *117
+- *118
+- *119
+- *120
+- *121
+- *122
+- *123
+- *124
+- *125
+- *126
+- *127
+- *128
+- *129
+- *130
+- *131
+- *132
+- *133
+- *134
+- *135
+- *136
+- *137
+- *138
+- *139
+- *140
+- *141
+- *142
+- *143
+- *54
+- *144
+- *145
+- *146
+- *147
+- *148
+- *149
+- *150
+- *151
+- *152
+- *153
+- *154
+- *155
+- *156
+- *157
+- *158
+- *159
+- *160
+- *161
+- *162
+- *163
+- *164
+- *165
+- *166
+- *167
+- *168
+- *169
+- *170
+- *171
+- *172
+- *68
+- *69
+- *55
+- *173
+- *70
+- *56
+- *174
+- *175
+- *176
+- *177
+- *71
+- *57
+- *72
+- *178
+- *179
+- *180
+- *181
+- *182
+- *183
+- *76
+- *77
+- *184
+- *58
+- *185
+- *186
+- *187
+- *73
+- *188
+- *189
+- *190
+- *78
+- *59
+- *191
+- *192
+- *193
+- *74
+- *79
+- *80
+- *81
+- *194
+- *60
+- *195
+- *75
+- *196
+- *197
+- *198
+- *199
+- *200
+- *201
+- *202
+- *203
+- *82
+- *204
+- *85
+- *61
+- *205
+- *206
+- *83
+- *207
+- *208
+- *86
+- *209
+- *62
+- *84
+- *210
+- *87
+- *211
+- *89
+- *63
+- *212
+- *213
+- *88
+- *90
+- *92
+- *64
+- *214
+- *215
+- *91
+- *216
+- *217
+- *218
+- *219
+- *93
+- *95
+- *65
+- *220
+- *221
+- *94
+- *222
+- *223
+- *224
+- *96
+- *99
+- *66
+- *225
+- *97
+- *226
+- *100
+- *101
+- *227
+- *103
+- *228
+- *67
+- *98
+- *229
+- *102
+- *230
+- *231
+- *232
+- *233
+- *234
+- *235
+- *236
+- *237
+- *238
+- *239
+- *240
+- *241
+- *242
+- *243
+- *244
+- *245
+- *246
+- *247
+tweet_queue:
+- *234
+- *235
+- *236
+- *237
+- *238
+- *239
+- *240
+- *241
+- *242
+- *243
+- *244
+- *245
+- *246
+- *247

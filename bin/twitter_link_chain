@@ -5,6 +5,7 @@ require_relative '../environment'
 start_tweet_hash = TwitterLinkChain.get_first_tweet_hash("https://twitter.com/aviflombaum/status/433591949921366016")
 start_tweet = Tweet.new(start_tweet_hash[:username],
                         start_tweet_hash[:id],
+                        start_tweet_hash[:created_at],
                         start_tweet_hash[:location])
 
 chain = TwitterLinkChain.new(start_tweet)

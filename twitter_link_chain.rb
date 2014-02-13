@@ -52,6 +52,7 @@ class TwitterLinkChain
     {
       :username => tweet.user.screen_name,
       :id => tweet.id,
+      :created_at => tweet.created_at,
       :location => nil
     }
 
@@ -93,17 +94,17 @@ class TwitterLinkChain
     digraph do
       traveled_path.each do |pair|
         start = pair[0] == nil
-        if start
-          node("Start").label "Start"
-        else
-          node(pair[0].id).label pair[0].username if !node(pair[0].id)
-          node(pair[1].id).label pair[1].username if !node(pair[1].id)
-        end
+        # if start
+        #   node("Start").label "Start"
+        # else
+        #   node(pair[0].id).label pair[0].id if !node(pair[0].id)
+        #   node(pair[1].id).label pair[1].id if !node(pair[1].id)
+        # end
 
         if start
-          edge "Start", pair[1].id
+          edge "#{pair[1].username}: #{pair[1].created_at.strftime("%a %b %e - %k:%M")}", "Start"
         else
-          edge pair[0].id, pair[1].id
+          edge "#{pair[1].username}: #{pair[1].created_at.strftime("%a %b %e - %k:%M")}", "#{pair[0].username}: #{pair[0].created_at.strftime("%a %b %e - %k:%M")}"
         end
       end
 

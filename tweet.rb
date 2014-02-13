@@ -1,12 +1,13 @@
 class Tweet
-  attr_reader :username, :id, :location, :url, :neighbors, :parents, :children
+  attr_reader :username, :id, :location, :url, :neighbors, :parents, :children, :created_at
   
   TWEET_IDS = []
 
-  def initialize(username, id, location=nil)
+  def initialize(username, id, created_at, location=nil)
     @username = username
     @id = id
     @location = location
+    @created_at = created_at
     @url = "https://twitter.com/#{username}/status/#{id}"
     @parents = []
     @children = []
@@ -26,12 +27,13 @@ class Tweet
     TwitterLinkChain::CLIENT.search(id).reject {|t| t.retweet? == true}.map do |tweet|
       username = tweet.user.screen_name
       id = tweet.id
+      created_at = tweet.created_at
       location = nil
       if !tweet.place.class == Twitter::NullObject
         location = tweet.place
       end
 
-      Tweet.new(username, id, location)
+      Tweet.new(username, id, created_at, location)
     end
   end
 
