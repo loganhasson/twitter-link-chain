@@ -1,50 +1,38 @@
 class Tweet
-  attr_reader :url, :username, :neighbors, :parents, :children, :linked_url, :id, :starting
+  attr_reader :username, :id, :location, :url, :neighbors, :parents, :children
   
   TWEET_IDS = []
-  STARTING_ID = []
 
-  def initialize(url, username, linked_url, id, starting=false)
-    @url = url
+  def initialize(username, id, location=nil)
     @username = username
-    @linked_url = linked_url
-    @starting = starting
     @id = id
-
-    if starting
-      STARTING_ID << id
-    end
-    TWEET_IDS << id
-
+    @location = location
+    @url = "https://twitter.com/#{username}/status/#{id}"
     @parents = []
     @children = []
 
-    # @neighbors = get_neighbors
+    TWEET_IDS << id
   end
 
-  def get_neighbors
+  def get_neighbors(twitter_link_chain)
     puts "Getting neighbors for: #{username}"
-    puts ""
 
-    if !starting || !STARTING_ID.include?(linked_url.to_s[/(\d)+$/].to_i)
-      puts "about to search for: #{linked_url}"
-      sleep(2)
-      sideways = TwitterLinkChain::CLIENT.search(linked_url).reject {|t| t.retweet? == true || t.user.screen_name == username}.map do |tweet|
-        Tweet.new(tweet.url, tweet.user.screen_name, tweet.urls.first.expanded_url, tweet.id) if !TWEET_IDS.include?(tweet.id) && !STARTING_ID.include?(tweet.id)
-      end.compact
+    TwitterLinkChain::TLC_STORE.transaction do
+      TwitterLinkChain::TLC_STORE["traveled_path"] = twitter_link_chain.traveled_path
+      TwitterLinkChain::TLC_STORE["visited_tweets"] = twitter_link_chain.visited_tweets
+      TwitterLinkChain::TLC_STORE["tweet_queue"] = twitter_link_chain.tweet_queue
     end
 
-    # forward = TwitterLinkChain::CLIENT.search(url).reject {|t| t.retweet? == true}.map do |tweet|
-    #   Tweet.new(tweet.url, tweet.user.screen_name, tweet.urls.first.expanded_url, tweet.id) if !TWEET_IDS.include?(tweet.id)
-    # end.compact
-    sleep(2)
-    forward = TwitterLinkChain::CLIENT.search(url).reject {|t| t.retweet? == true}.map do |tweet|
-      Tweet.new(tweet.url, tweet.user.screen_name, tweet.urls.first.expanded_url, tweet.id) if !TWEET_IDS.include?(tweet.id)
-    end.compact
+    TwitterLinkChain::CLIENT.search(id).reject {|t| t.retweet? == true}.map do |tweet|
+      username = tweet.user.screen_name
+      id = tweet.id
+      location = nil
+      if !tweet.place.class == Twitter::NullObject
+        location = tweet.place
+      end
 
-    # TODO: Figure out how to now start the chain one level back (aka from the linked_url tweet)
-
-    sideways + forward
+      Tweet.new(username, id, location)
+    end
   end
 
 end

@@ -1,4 +1,5 @@
 require 'bundler/setup'
+require 'yaml/store'
 Bundler.require
 
 require_relative 'config/twitter_api_credentials'

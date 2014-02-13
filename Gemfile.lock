@@ -8,6 +8,7 @@ GEM
     equalizer (0.0.9)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
+    graph (2.6.0)
     http (0.5.0)
       http_parser.rb
     http_parser.rb (0.6.0)
@@ -41,5 +42,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  graph
   pry
   twitter
