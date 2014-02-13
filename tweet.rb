@@ -9,9 +9,6 @@ class Tweet
     @location = location
     @created_at = created_at
     @url = "https://twitter.com/#{username}/status/#{id}"
-    @parents = []
-    @children = []
-
     TWEET_IDS << id
   end
 

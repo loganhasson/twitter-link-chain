@@ -64,8 +64,6 @@ class TwitterLinkChain
 
   def add_to_path(parent, child)
     self.traveled_path << [parent, child]
-    child.parents << parent
-    parent.children << child
   end
 
   def add_to_arrays(tweet)
