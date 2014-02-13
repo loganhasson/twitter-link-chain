@@ -74,6 +74,9 @@ class TwitterLinkChain
   def map_graph
     while !tweet_queue.empty?
       tweet = tweet_queue.shift
+      while tweet == tweet_queue.first
+        tweet = tweet_queue.shift
+      end
       TLC_STORE.transaction do
         TLC_STORE["stored"] = true
         TLC_STORE["current_tweet"] = tweet
