@@ -1,0 +1,784 @@
+---
+stored: true
+current_tweet: &2 !ruby/object:Tweet
+  username: sufw
+  id: 433518907584823296
+  location: 
+  created_at: 2014-02-12 03:32:16.000000000 -05:00
+  url: https://twitter.com/sufw/status/433518907584823296
+traveled_path:
+- - 
+  - &1 !ruby/object:Tweet
+    username: BenHowe
+    id: 433249756006346752
+    location: 
+    created_at: 2014-02-11 09:42:45.000000000 -05:00
+    url: https://twitter.com/BenHowe/status/433249756006346752
+- - *1
+  - &4 !ruby/object:Tweet
+    username: YanKislyuk
+    id: 433964978920370178
+    location: 
+    created_at: 2014-02-13 09:04:48.000000000 -05:00
+    url: https://twitter.com/YanKislyuk/status/433964978920370178
+- - *1
+  - &5 !ruby/object:Tweet
+    username: lexaguskov
+    id: 433946836265496577
+    location: 
+    created_at: 2014-02-13 07:52:42.000000000 -05:00
+    url: https://twitter.com/lexaguskov/status/433946836265496577
+- - *1
+  - &6 !ruby/object:Tweet
+    username: AlinaStards
+    id: 433943696086556672
+    location: 
+    created_at: 2014-02-13 07:40:14.000000000 -05:00
+    url: https://twitter.com/AlinaStards/status/433943696086556672
+- - *1
+  - &7 !ruby/object:Tweet
+    username: Nik_Nmka
+    id: 433942657375543296
+    location: 
+    created_at: 2014-02-13 07:36:06.000000000 -05:00
+    url: https://twitter.com/Nik_Nmka/status/433942657375543296
+- - *1
+  - &8 !ruby/object:Tweet
+    username: lolk0
+    id: 433940757267746816
+    location: 
+    created_at: 2014-02-13 07:28:33.000000000 -05:00
+    url: https://twitter.com/lolk0/status/433940757267746816
+- - *1
+  - &9 !ruby/object:Tweet
+    username: push_ok_
+    id: 433938554733862913
+    location: 
+    created_at: 2014-02-13 07:19:48.000000000 -05:00
+    url: https://twitter.com/push_ok_/status/433938554733862913
+- - *1
+  - &10 !ruby/object:Tweet
+    username: Sistem_0
+    id: 433932257355509760
+    location: 
+    created_at: 2014-02-13 06:54:46.000000000 -05:00
+    url: https://twitter.com/Sistem_0/status/433932257355509760
+- - *1
+  - &11 !ruby/object:Tweet
+    username: zaz600
+    id: 433931210101116928
+    location: 
+    created_at: 2014-02-13 06:50:37.000000000 -05:00
+    url: https://twitter.com/zaz600/status/433931210101116928
+- - *1
+  - &12 !ruby/object:Tweet
+    username: iScrag
+    id: 433929153491255296
+    location: 
+    created_at: 2014-02-13 06:42:26.000000000 -05:00
+    url: https://twitter.com/iScrag/status/433929153491255296
+- - *1
+  - &13 !ruby/object:Tweet
+    username: Aliona_Kim
+    id: 433928415054266368
+    location: 
+    created_at: 2014-02-13 06:39:30.000000000 -05:00
+    url: https://twitter.com/Aliona_Kim/status/433928415054266368
+- - *1
+  - &14 !ruby/object:Tweet
+    username: kimosabette
+    id: 433926461951451136
+    location: 
+    created_at: 2014-02-13 06:31:45.000000000 -05:00
+    url: https://twitter.com/kimosabette/status/433926461951451136
+- - *1
+  - &15 !ruby/object:Tweet
+    username: s0mik
+    id: 433925804364267522
+    location: 
+    created_at: 2014-02-13 06:29:08.000000000 -05:00
+    url: https://twitter.com/s0mik/status/433925804364267522
+- - *1
+  - &16 !ruby/object:Tweet
+    username: cheburashka_pnz
+    id: 433917021940506624
+    location: 
+    created_at: 2014-02-13 05:54:14.000000000 -05:00
+    url: https://twitter.com/cheburashka_pnz/status/433917021940506624
+- - *1
+  - &17 !ruby/object:Tweet
+    username: dervish_lost
+    id: 433916678095634433
+    location: 
+    created_at: 2014-02-13 05:52:52.000000000 -05:00
+    url: https://twitter.com/dervish_lost/status/433916678095634433
+- - *1
+  - &18 !ruby/object:Tweet
+    username: svintuss
+    id: 433915920470536192
+    location: 
+    created_at: 2014-02-13 05:49:51.000000000 -05:00
+    url: https://twitter.com/svintuss/status/433915920470536192
+- - *1
+  - &19 !ruby/object:Tweet
+    username: peremenov
+    id: 433913454265901056
+    location: 
+    created_at: 2014-02-13 05:40:03.000000000 -05:00
+    url: https://twitter.com/peremenov/status/433913454265901056
+- - *1
+  - &20 !ruby/object:Tweet
+    username: ir0nbee
+    id: 433909435896180736
+    location: 
+    created_at: 2014-02-13 05:24:05.000000000 -05:00
+    url: https://twitter.com/ir0nbee/status/433909435896180736
+- - *1
+  - &21 !ruby/object:Tweet
+    username: RuslanLeviev
+    id: 433909416555855872
+    location: 
+    created_at: 2014-02-13 05:24:01.000000000 -05:00
+    url: https://twitter.com/RuslanLeviev/status/433909416555855872
+- - *1
+  - &22 !ruby/object:Tweet
+    username: law6512
+    id: 433909062753718272
+    location: 
+    created_at: 2014-02-13 05:22:36.000000000 -05:00
+    url: https://twitter.com/law6512/status/433909062753718272
+- - *1
+  - &23 !ruby/object:Tweet
+    username: xeningem
+    id: 433907380871372800
+    location: 
+    created_at: 2014-02-13 05:15:55.000000000 -05:00
+    url: https://twitter.com/xeningem/status/433907380871372800
+- - *1
+  - &24 !ruby/object:Tweet
+    username: LekhaChe
+    id: 433906505310404608
+    location: 
+    created_at: 2014-02-13 05:12:27.000000000 -05:00
+    url: https://twitter.com/LekhaChe/status/433906505310404608
+- - *1
+  - &25 !ruby/object:Tweet
+    username: Georgique
+    id: 433906423857020928
+    location: 
+    created_at: 2014-02-13 05:12:07.000000000 -05:00
+    url: https://twitter.com/Georgique/status/433906423857020928
+- - *1
+  - &26 !ruby/object:Tweet
+    username: Flame0709
+    id: 433905861711261696
+    location: 
+    created_at: 2014-02-13 05:09:53.000000000 -05:00
+    url: https://twitter.com/Flame0709/status/433905861711261696
+- - *1
+  - &27 !ruby/object:Tweet
+    username: YolGorro
+    id: 433903591733338112
+    location: 
+    created_at: 2014-02-13 05:00:52.000000000 -05:00
+    url: https://twitter.com/YolGorro/status/433903591733338112
+- - *1
+  - &28 !ruby/object:Tweet
+    username: Oberst_SS
+    id: 433848539278348288
+    location: 
+    created_at: 2014-02-13 01:22:06.000000000 -05:00
+    url: https://twitter.com/Oberst_SS/status/433848539278348288
+- - *1
+  - &29 !ruby/object:Tweet
+    username: Oberst_SS
+    id: 433843952936951808
+    location: 
+    created_at: 2014-02-13 01:03:53.000000000 -05:00
+    url: https://twitter.com/Oberst_SS/status/433843952936951808
+- - *1
+  - &30 !ruby/object:Tweet
+    username: spierenburg
+    id: 433831624858681344
+    location: 
+    created_at: 2014-02-13 00:14:54.000000000 -05:00
+    url: https://twitter.com/spierenburg/status/433831624858681344
+- - *1
+  - &31 !ruby/object:Tweet
+    username: Tommy_Pud
+    id: 433820815016984576
+    location: 
+    created_at: 2014-02-12 23:31:56.000000000 -05:00
+    url: https://twitter.com/Tommy_Pud/status/433820815016984576
+- - *1
+  - &32 !ruby/object:Tweet
+    username: rubedar07
+    id: 433775063238991872
+    location: 
+    created_at: 2014-02-12 20:30:08.000000000 -05:00
+    url: https://twitter.com/rubedar07/status/433775063238991872
+- - *1
+  - &33 !ruby/object:Tweet
+    username: ssms54
+    id: 433772893730635776
+    location: 
+    created_at: 2014-02-12 20:21:31.000000000 -05:00
+    url: https://twitter.com/ssms54/status/433772893730635776
+- - *1
+  - &34 !ruby/object:Tweet
+    username: Leon_BM
+    id: 433766495839985665
+    location: 
+    created_at: 2014-02-12 19:56:06.000000000 -05:00
+    url: https://twitter.com/Leon_BM/status/433766495839985665
+- - *1
+  - &35 !ruby/object:Tweet
+    username: IceW
+    id: 433758073870503936
+    location: 
+    created_at: 2014-02-12 19:22:38.000000000 -05:00
+    url: https://twitter.com/IceW/status/433758073870503936
+- - *1
+  - &36 !ruby/object:Tweet
+    username: ClaudioAlbertin
+    id: 433747244739993600
+    location: 
+    created_at: 2014-02-12 18:39:36.000000000 -05:00
+    url: https://twitter.com/ClaudioAlbertin/status/433747244739993600
+- - *1
+  - &37 !ruby/object:Tweet
+    username: lidiyaloves_x
+    id: 433743346301804544
+    location: 
+    created_at: 2014-02-12 18:24:06.000000000 -05:00
+    url: https://twitter.com/lidiyaloves_x/status/433743346301804544
+- - *1
+  - &38 !ruby/object:Tweet
+    username: TristanSekeris
+    id: 433733823327518720
+    location: 
+    created_at: 2014-02-12 17:46:16.000000000 -05:00
+    url: https://twitter.com/TristanSekeris/status/433733823327518720
+- - *1
+  - &39 !ruby/object:Tweet
+    username: UnMesero
+    id: 433719196980359169
+    location: 
+    created_at: 2014-02-12 16:48:09.000000000 -05:00
+    url: https://twitter.com/UnMesero/status/433719196980359169
+- - *1
+  - &40 !ruby/object:Tweet
+    username: Philaios
+    id: 433717670295265280
+    location: 
+    created_at: 2014-02-12 16:42:05.000000000 -05:00
+    url: https://twitter.com/Philaios/status/433717670295265280
+- - *1
+  - &41 !ruby/object:Tweet
+    username: lys0201roy
+    id: 433716957536194560
+    location: 
+    created_at: 2014-02-12 16:39:15.000000000 -05:00
+    url: https://twitter.com/lys0201roy/status/433716957536194560
+- - *1
+  - &42 !ruby/object:Tweet
+    username: Joffreyziell
+    id: 433716382107435008
+    location: 
+    created_at: 2014-02-12 16:36:58.000000000 -05:00
+    url: https://twitter.com/Joffreyziell/status/433716382107435008
+- - *1
+  - &43 !ruby/object:Tweet
+    username: romandope
+    id: 433710060272111618
+    location: 
+    created_at: 2014-02-12 16:11:50.000000000 -05:00
+    url: https://twitter.com/romandope/status/433710060272111618
+- - *1
+  - &44 !ruby/object:Tweet
+    username: d0od
+    id: 433698845588197377
+    location: 
+    created_at: 2014-02-12 15:27:17.000000000 -05:00
+    url: https://twitter.com/d0od/status/433698845588197377
+- - *1
+  - &45 !ruby/object:Tweet
+    username: edgarazado
+    id: 433694573932871680
+    location: 
+    created_at: 2014-02-12 15:10:18.000000000 -05:00
+    url: https://twitter.com/edgarazado/status/433694573932871680
+- - *1
+  - &46 !ruby/object:Tweet
+    username: malejandrou
+    id: 433693566389723136
+    location: 
+    created_at: 2014-02-12 15:06:18.000000000 -05:00
+    url: https://twitter.com/malejandrou/status/433693566389723136
+- - *1
+  - &47 !ruby/object:Tweet
+    username: hagasbar
+    id: 433692767491854336
+    location: 
+    created_at: 2014-02-12 15:03:08.000000000 -05:00
+    url: https://twitter.com/hagasbar/status/433692767491854336
+- - *1
+  - &48 !ruby/object:Tweet
+    username: SamuelDam
+    id: 433689099950882816
+    location: 
+    created_at: 2014-02-12 14:48:33.000000000 -05:00
+    url: https://twitter.com/SamuelDam/status/433689099950882816
+- - *1
+  - &49 !ruby/object:Tweet
+    username: SaraRCookie
+    id: 433687766162219008
+    location: 
+    created_at: 2014-02-12 14:43:15.000000000 -05:00
+    url: https://twitter.com/SaraRCookie/status/433687766162219008
+- - *1
+  - &50 !ruby/object:Tweet
+    username: sixdll
+    id: 433686448022495232
+    location: 
+    created_at: 2014-02-12 14:38:01.000000000 -05:00
+    url: https://twitter.com/sixdll/status/433686448022495232
+- - *1
+  - &51 !ruby/object:Tweet
+    username: DeDaanmans
+    id: 433677517896310784
+    location: 
+    created_at: 2014-02-12 14:02:32.000000000 -05:00
+    url: https://twitter.com/DeDaanmans/status/433677517896310784
+- - *1
+  - &52 !ruby/object:Tweet
+    username: SadHazelnut
+    id: 433676752024772608
+    location: 
+    created_at: 2014-02-12 13:59:29.000000000 -05:00
+    url: https://twitter.com/SadHazelnut/status/433676752024772608
+- - *1
+  - &53 !ruby/object:Tweet
+    username: gvssr
+    id: 433676206274510848
+    location: 
+    created_at: 2014-02-12 13:57:19.000000000 -05:00
+    url: https://twitter.com/gvssr/status/433676206274510848
+- - *1
+  - &54 !ruby/object:Tweet
+    username: MemoryOnSmell
+    id: 433669345894334465
+    location: 
+    created_at: 2014-02-12 13:30:03.000000000 -05:00
+    url: https://twitter.com/MemoryOnSmell/status/433669345894334465
+- - *1
+  - &55 !ruby/object:Tweet
+    username: lelek_kofe
+    id: 433653594118582272
+    location: 
+    created_at: 2014-02-12 12:27:28.000000000 -05:00
+    url: https://twitter.com/lelek_kofe/status/433653594118582272
+- - *1
+  - &56 !ruby/object:Tweet
+    username: macsnider
+    id: 433652932295544832
+    location: 
+    created_at: 2014-02-12 12:24:50.000000000 -05:00
+    url: https://twitter.com/macsnider/status/433652932295544832
+- - *1
+  - &57 !ruby/object:Tweet
+    username: Morozov43
+    id: 433646656970428419
+    location: 
+    created_at: 2014-02-12 11:59:54.000000000 -05:00
+    url: https://twitter.com/Morozov43/status/433646656970428419
+- - *1
+  - &58 !ruby/object:Tweet
+    username: davidtgriches
+    id: 433646062796939264
+    location: 
+    created_at: 2014-02-12 11:57:32.000000000 -05:00
+    url: https://twitter.com/davidtgriches/status/433646062796939264
+- - *1
+  - &59 !ruby/object:Tweet
+    username: sononchalance
+    id: 433643558365458433
+    location: 
+    created_at: 2014-02-12 11:47:35.000000000 -05:00
+    url: https://twitter.com/sononchalance/status/433643558365458433
+- - *1
+  - &60 !ruby/object:Tweet
+    username: InnaShidlovskay
+    id: 433640714996842496
+    location: 
+    created_at: 2014-02-12 11:36:17.000000000 -05:00
+    url: https://twitter.com/InnaShidlovskay/status/433640714996842496
+- - *1
+  - &61 !ruby/object:Tweet
+    username: peermohamed
+    id: 433632079939502080
+    location: 
+    created_at: 2014-02-12 11:01:59.000000000 -05:00
+    url: https://twitter.com/peermohamed/status/433632079939502080
+- - *1
+  - &62 !ruby/object:Tweet
+    username: apiyron
+    id: 433630722675720192
+    location: 
+    created_at: 2014-02-12 10:56:35.000000000 -05:00
+    url: https://twitter.com/apiyron/status/433630722675720192
+- - *1
+  - &63 !ruby/object:Tweet
+    username: n_ismangulov
+    id: 433627149971365890
+    location: 
+    created_at: 2014-02-12 10:42:23.000000000 -05:00
+    url: https://twitter.com/n_ismangulov/status/433627149971365890
+- - *1
+  - &64 !ruby/object:Tweet
+    username: sarahmedetth
+    id: 433626020064002048
+    location: 
+    created_at: 2014-02-12 10:37:54.000000000 -05:00
+    url: https://twitter.com/sarahmedetth/status/433626020064002048
+- - *1
+  - &65 !ruby/object:Tweet
+    username: RubenBehaeghe
+    id: 433621511572701184
+    location: 
+    created_at: 2014-02-12 10:19:59.000000000 -05:00
+    url: https://twitter.com/RubenBehaeghe/status/433621511572701184
+- - *1
+  - &66 !ruby/object:Tweet
+    username: SeelenKrieg
+    id: 433617193067364352
+    location: 
+    created_at: 2014-02-12 10:02:49.000000000 -05:00
+    url: https://twitter.com/SeelenKrieg/status/433617193067364352
+- - *1
+  - &67 !ruby/object:Tweet
+    username: Cybnext
+    id: 433614648017833984
+    location: 
+    created_at: 2014-02-12 09:52:42.000000000 -05:00
+    url: https://twitter.com/Cybnext/status/433614648017833984
+- - *1
+  - &68 !ruby/object:Tweet
+    username: ZegertvdLinde
+    id: 433613691289079808
+    location: 
+    created_at: 2014-02-12 09:48:54.000000000 -05:00
+    url: https://twitter.com/ZegertvdLinde/status/433613691289079808
+- - *1
+  - &69 !ruby/object:Tweet
+    username: ghvanderweg
+    id: 433612875781791744
+    location: 
+    created_at: 2014-02-12 09:45:40.000000000 -05:00
+    url: https://twitter.com/ghvanderweg/status/433612875781791744
+- - *1
+  - &70 !ruby/object:Tweet
+    username: peremenov
+    id: 433600334767079424
+    location: 
+    created_at: 2014-02-12 08:55:50.000000000 -05:00
+    url: https://twitter.com/peremenov/status/433600334767079424
+- - *1
+  - &71 !ruby/object:Tweet
+    username: ap00rv
+    id: 433589702914875392
+    location: 
+    created_at: 2014-02-12 08:13:35.000000000 -05:00
+    url: https://twitter.com/ap00rv/status/433589702914875392
+- - *1
+  - &3 !ruby/object:Tweet
+    username: TVLuke
+    id: 433585184693178368
+    location: 
+    created_at: 2014-02-12 07:55:38.000000000 -05:00
+    url: https://twitter.com/TVLuke/status/433585184693178368
+- - *1
+  - &72 !ruby/object:Tweet
+    username: moebile
+    id: 433580063410229248
+    location: 
+    created_at: 2014-02-12 07:35:17.000000000 -05:00
+    url: https://twitter.com/moebile/status/433580063410229248
+- - *1
+  - &73 !ruby/object:Tweet
+    username: TorbenSchultz
+    id: 433576635778871296
+    location: 
+    created_at: 2014-02-12 07:21:40.000000000 -05:00
+    url: https://twitter.com/TorbenSchultz/status/433576635778871296
+- - *1
+  - &74 !ruby/object:Tweet
+    username: YaManicKill
+    id: 433571136878551040
+    location: 
+    created_at: 2014-02-12 06:59:49.000000000 -05:00
+    url: https://twitter.com/YaManicKill/status/433571136878551040
+- - *1
+  - &75 !ruby/object:Tweet
+    username: Ertraeglichkeit
+    id: 433559972895412225
+    location: 
+    created_at: 2014-02-12 06:15:27.000000000 -05:00
+    url: https://twitter.com/Ertraeglichkeit/status/433559972895412225
+- - *1
+  - &76 !ruby/object:Tweet
+    username: FBeuster
+    id: 433554045081767936
+    location: 
+    created_at: 2014-02-12 05:51:54.000000000 -05:00
+    url: https://twitter.com/FBeuster/status/433554045081767936
+- - *1
+  - &77 !ruby/object:Tweet
+    username: Nepomuk
+    id: 433553743179567105
+    location: 
+    created_at: 2014-02-12 05:50:42.000000000 -05:00
+    url: https://twitter.com/Nepomuk/status/433553743179567105
+- - *1
+  - &78 !ruby/object:Tweet
+    username: scoux
+    id: 433552145011331072
+    location: 
+    created_at: 2014-02-12 05:44:21.000000000 -05:00
+    url: https://twitter.com/scoux/status/433552145011331072
+- - *1
+  - &79 !ruby/object:Tweet
+    username: honnel
+    id: 433533159246790658
+    location: 
+    created_at: 2014-02-12 04:28:54.000000000 -05:00
+    url: https://twitter.com/honnel/status/433533159246790658
+- - *1
+  - &80 !ruby/object:Tweet
+    username: kwasbeb
+    id: 433532378653261825
+    location: 
+    created_at: 2014-02-12 04:25:48.000000000 -05:00
+    url: https://twitter.com/kwasbeb/status/433532378653261825
+- - *1
+  - &81 !ruby/object:Tweet
+    username: bigup2dance
+    id: 433530690701774849
+    location: 
+    created_at: 2014-02-12 04:19:05.000000000 -05:00
+    url: https://twitter.com/bigup2dance/status/433530690701774849
+- - *1
+  - &82 !ruby/object:Tweet
+    username: matmannion
+    id: 433530511664091136
+    location: 
+    created_at: 2014-02-12 04:18:23.000000000 -05:00
+    url: https://twitter.com/matmannion/status/433530511664091136
+- - *1
+  - &83 !ruby/object:Tweet
+    username: sr_rolando
+    id: 433527103045505024
+    location: 
+    created_at: 2014-02-12 04:04:50.000000000 -05:00
+    url: https://twitter.com/sr_rolando/status/433527103045505024
+- - *1
+  - &84 !ruby/object:Tweet
+    username: VTPG
+    id: 433526966801530880
+    location: 
+    created_at: 2014-02-12 04:04:18.000000000 -05:00
+    url: https://twitter.com/VTPG/status/433526966801530880
+- - *1
+  - &85 !ruby/object:Tweet
+    username: WimpyLion
+    id: 433523840698703872
+    location: 
+    created_at: 2014-02-12 03:51:52.000000000 -05:00
+    url: https://twitter.com/WimpyLion/status/433523840698703872
+- - *1
+  - &86 !ruby/object:Tweet
+    username: Dronacharya_
+    id: 433523614285983744
+    location: 
+    created_at: 2014-02-12 03:50:58.000000000 -05:00
+    url: https://twitter.com/Dronacharya_/status/433523614285983744
+- - *1
+  - *2
+- - *1
+  - &87 !ruby/object:Tweet
+    username: AH_Patjay
+    id: 433517430141231104
+    location: 
+    created_at: 2014-02-12 03:26:24.000000000 -05:00
+    url: https://twitter.com/AH_Patjay/status/433517430141231104
+- - *1
+  - &88 !ruby/object:Tweet
+    username: ashaolinmonkey
+    id: 433505380417556480
+    location: 
+    created_at: 2014-02-12 02:38:31.000000000 -05:00
+    url: https://twitter.com/ashaolinmonkey/status/433505380417556480
+- - *1
+  - &89 !ruby/object:Tweet
+    username: rocky_upadhaya
+    id: 433496886188576768
+    location: 
+    created_at: 2014-02-12 02:04:46.000000000 -05:00
+    url: https://twitter.com/rocky_upadhaya/status/433496886188576768
+- - *1
+  - &90 !ruby/object:Tweet
+    username: DTSpawn
+    id: 433492061551984640
+    location: 
+    created_at: 2014-02-12 01:45:36.000000000 -05:00
+    url: https://twitter.com/DTSpawn/status/433492061551984640
+- - *1
+  - &91 !ruby/object:Tweet
+    username: kevinchen
+    id: 433486562735960064
+    location: 
+    created_at: 2014-02-12 01:23:45.000000000 -05:00
+    url: https://twitter.com/kevinchen/status/433486562735960064
+- - *1
+  - &92 !ruby/object:Tweet
+    username: diaporesis
+    id: 433481627725864960
+    location: 
+    created_at: 2014-02-12 01:04:08.000000000 -05:00
+    url: https://twitter.com/diaporesis/status/433481627725864960
+- - *1
+  - &93 !ruby/object:Tweet
+    username: TheChrisGlass
+    id: 433480785824215040
+    location: 
+    created_at: 2014-02-12 01:00:47.000000000 -05:00
+    url: https://twitter.com/TheChrisGlass/status/433480785824215040
+- - *1
+  - &94 !ruby/object:Tweet
+    username: gibberishmock
+    id: 433480644589785088
+    location: 
+    created_at: 2014-02-12 01:00:14.000000000 -05:00
+    url: https://twitter.com/gibberishmock/status/433480644589785088
+- - *1
+  - &95 !ruby/object:Tweet
+    username: gibberishmock
+    id: 433480475579916288
+    location: 
+    created_at: 2014-02-12 00:59:33.000000000 -05:00
+    url: https://twitter.com/gibberishmock/status/433480475579916288
+- - *3
+  - &96 !ruby/object:Tweet
+    username: TVLuke
+    id: 433585184693178368
+    location: 
+    created_at: 2014-02-12 07:55:38.000000000 -05:00
+    url: https://twitter.com/TVLuke/status/433585184693178368
+visited_tweets:
+- *1
+- *4
+- *5
+- *6
+- *7
+- *8
+- *9
+- *10
+- *11
+- *12
+- *13
+- *14
+- *15
+- *16
+- *17
+- *18
+- *19
+- *20
+- *21
+- *22
+- *23
+- *24
+- *25
+- *26
+- *27
+- *28
+- *29
+- *30
+- *31
+- *32
+- *33
+- *34
+- *35
+- *36
+- *37
+- *38
+- *39
+- *40
+- *41
+- *42
+- *43
+- *44
+- *45
+- *46
+- *47
+- *48
+- *49
+- *50
+- *51
+- *52
+- *53
+- *54
+- *55
+- *56
+- *57
+- *58
+- *59
+- *60
+- *61
+- *62
+- *63
+- *64
+- *65
+- *66
+- *67
+- *68
+- *69
+- *70
+- *71
+- *3
+- *72
+- *73
+- *74
+- *75
+- *76
+- *77
+- *78
+- *79
+- *80
+- *81
+- *82
+- *83
+- *84
+- *85
+- *86
+- *2
+- *87
+- *88
+- *89
+- *90
+- *91
+- *92
+- *93
+- *94
+- *95
+- *96
+tweet_queue:
+- *87
+- *88
+- *89
+- *90
+- *91
+- *92
+- *93
+- *94
+- *95
+- *96

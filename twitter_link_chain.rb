@@ -74,15 +74,15 @@ class TwitterLinkChain
   def map_graph
     while !tweet_queue.empty?
       tweet = tweet_queue.shift
-      while tweet == tweet_queue.first
-        tweet = tweet_queue.shift
-      end
       TLC_STORE.transaction do
         TLC_STORE["stored"] = true
         TLC_STORE["current_tweet"] = tweet
+        TLC_STORE["traveled_path"] = traveled_path
+        TLC_STORE["visited_tweets"] = visited_tweets
+        TLC_STORE["tweet_queue"] = tweet_queue
       end
 
-      tweet.get_neighbors(self).each do |neighbor|
+      tweet.get_neighbors.each do |neighbor|
         if !visited?(neighbor)
           add_to_path(tweet, neighbor)
           add_to_arrays(neighbor)
@@ -95,12 +95,6 @@ class TwitterLinkChain
     digraph do
       traveled_path.each do |pair|
         start = pair[0] == nil
-        # if start
-        #   node("Start").label "Start"
-        # else
-        #   node(pair[0].id).label pair[0].id if !node(pair[0].id)
-        #   node(pair[1].id).label pair[1].id if !node(pair[1].id)
-        # end
 
         if start
           edge "#{pair[1].username}: #{pair[1].created_at.strftime("%a %b %e - %k:%M")}", "Start"
