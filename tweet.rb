@@ -26,7 +26,7 @@ class Tweet
   end
 
   def client_to_use
-    Tweet.count <= 450 ? clients[0] : clients[1]
+    Tweet.count <= 175 ? clients[0] : clients[1]
   end
 
   def increase_search_count
@@ -58,8 +58,8 @@ class Tweet
       id = tweet.id
       created_at = tweet.created_at
       location = nil
-      retweet = t.retweet?
-      retweet_count = t.retweet_count
+      retweet = tweet.retweet?
+      retweet_count = tweet.retweet_count
       if !tweet.place.class == Twitter::NullObject
         location = tweet.place
       end
