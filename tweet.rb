@@ -16,14 +16,18 @@ class Tweet
       count: 100
     }
 
+    results = []
+
     search = TwitterLinkChain::CLIENT.search(id, search_params)
+    results << search.reject {|t| t.user.screen_name == username}
 
     while next_params = search.send("next_page")
-      new_params = search_params.merge(next_params)
-      search += TwitterLinkChain::CLIENT.search(id, new_params)
+      search = TwitterLinkChain::CLIENT.search(id, search_params.merge(next_params))
+      results << search.reject {|t| t.user.screen_name == username}
     end
 
-    search.reject {|t| t.user.screen_name == username}.map do |tweet|
+    results.flatten.map do |tweet|
+    # .reject {|t| t.user.screen_name == username}.map do |tweet|
       username = tweet.user.screen_name
       id = tweet.id
       created_at = tweet.created_at
