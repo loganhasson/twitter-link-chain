@@ -2,19 +2,23 @@
 
 require_relative '../environment'
 
-start_tweet_hash = TwitterLinkChain.get_first_tweet_hash("https://twitter.com/aviflombaum/status/433591949921366016")
-start_tweet = Tweet.new(start_tweet_hash[:username],
-                        start_tweet_hash[:id],
-                        start_tweet_hash[:created_at],
-                        start_tweet_hash[:location])
+# redsteeze
+# 433250487404879872
 
-chain = TwitterLinkChain.new(start_tweet)
+# start_tweet_hash = TwitterLinkChain.get_first_tweet_hash("https://twitter.com/aviflombaum/status/433591949921366016")
+# start_tweet = Tweet.new(start_tweet_hash[:username],
+#                         start_tweet_hash[:id],
+#                         start_tweet_hash[:created_at],
+#                         start_tweet_hash[:location])
+# start_tweet = Tweet.new("redsteeze", 433250487404879872, Time.new("2014-02-11 09:45:40 -0500"), nil)
 
-begin
-  g = chain.map_graph
-ensure
-  chain.display_graph(chain.traveled_path)
-end
+# chain = TwitterLinkChain.new(start_tweet)
+
+# begin
+#   g = chain.map_graph
+# ensure
+#   chain.display_graph(chain.traveled_path)
+# end
 
 # binding.pry
 # start_tweet = Tweet.new("https://twitter.com/aviflombaum/status/433591949921366016", "aviflombaum", "https://twitter.com/_stevennunez/status/433591245471223808", 433591949921366016)
@@ -34,7 +38,7 @@ end
 # t = TwitterLinkChain::CLIENT.status(433591245471223808)
 # binding.pry
 
-# t = TwitterLinkChain::CLIENT.status(433591245471223808)
+# t = TwitterLinkChain::CLIENT.status(433585184693178368)
 # l = TwitterLinkChain::CLIENT.status(433748884717047808)
 # t = TwitterLinkChain::CLIENT.status(433249756006346752)
 # tweet.place
