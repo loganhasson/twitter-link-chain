@@ -1,9 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative '../environment'
-
-# redsteeze
-# 433250487404879872
+require_relative '../config/environment'
 
 start_tweet_hash = TwitterLinkChain.get_first_tweet_hash("https://twitter.com/aviflombaum/status/433591949921366016")
 start_tweet = Tweet.new(start_tweet_hash[:username],
@@ -12,7 +9,6 @@ start_tweet = Tweet.new(start_tweet_hash[:username],
                         start_tweet_hash[:retweet],
                         start_tweet_hash[:retweet_count],
                         start_tweet_hash[:location])
-# start_tweet = Tweet.new("redsteeze", 433250487404879872, Time.new("2014-02-11 09:45:40 -0500"), nil)
 
 chain = TwitterLinkChain.new(start_tweet)
 
@@ -21,27 +17,3 @@ begin
 ensure
   chain.display_graph(chain.traveled_path)
 end
-
-# binding.pry
-# start_tweet = Tweet.new("https://twitter.com/aviflombaum/status/433591949921366016", "aviflombaum", "https://twitter.com/_stevennunez/status/433591245471223808", 433591949921366016)
-# chain = TwitterLinkChain.new(start_tweet)
-
-# chain.map_graph
-
-# TwitterLinkChain::CLIENT_ONE.search("https://twitter.com/aviflombaum/status/433591949921366016").map do |tweet|
-#   binding.pry
-#   puts tweet.user.screen_name
-# end
-
-# TwitterLinkChain::CLIENT_ONE.search(433591245471223808).each do |t|
-#   binding.pry
-# end
-
-# t = TwitterLinkChain::CLIENT_ONE.status(433591245471223808)
-# binding.pry
-
-# t = TwitterLinkChain::CLIENT_ONE.status(433585184693178368)
-# l = TwitterLinkChain::CLIENT_ONE.status(433748884717047808)
-# t = TwitterLinkChain::CLIENT_ONE.search(433249756006346752)
-# tweet.place
-# binding.pry
