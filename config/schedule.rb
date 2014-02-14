@@ -19,8 +19,8 @@
 
 # Learn more: http://github.com/javan/whenever
 
-# every 20.minutes do
-#   command "mv /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain/test.dot /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain/test.dot.bak"
-#   command "mv /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain/test.png /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain/test.png.bak"
-#   command "cd /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain && bundle && ruby bin/twitter_link_chain"
-# end
+every 20.minutes do
+  command "mv /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain/test.dot /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain/test.dot.bak"
+  command "mv /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain/test.png /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain/test.png.bak"
+  command "cd /Users/loganhasson/Development/code/flatiron/curriculum/twitter-link-chain && bundle && ruby bin/twitter_link_chain"
+end

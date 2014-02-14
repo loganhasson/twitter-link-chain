@@ -26,7 +26,7 @@ class Tweet
   end
 
   def client_to_use
-    Tweet.count <= 175 ? clients[0] : clients[1]
+    Tweet.count <= 125 ? clients[0] : clients[1]
   end
 
   def increase_search_count
