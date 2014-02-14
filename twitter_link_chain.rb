@@ -2,11 +2,18 @@ class TwitterLinkChain
   attr_accessor :parent_chain
   attr_reader :traveled_path, :visited_tweets, :tweet_queue
 
-  CLIENT = Twitter::REST::Client.new do |config|
-    config.consumer_key        = ENV["CONSUMER_KEY"]
-    config.consumer_secret     = ENV["CONSUMER_SECRET"]
-    config.access_token        = ENV["ACCESS_TOKEN"]
-    config.access_token_secret = ENV["ACCESS_SECRET"]
+  CLIENT_ONE = Twitter::REST::Client.new do |config|
+    config.consumer_key        = ENV["CONSUMER_KEY_1"]
+    config.consumer_secret     = ENV["CONSUMER_SECRET_1"]
+    config.access_token        = ENV["ACCESS_TOKEN_1"]
+    config.access_token_secret = ENV["ACCESS_SECRET_1"]
+  end
+
+  CLIENT_TWO = Twitter::REST::Client.new do |config|
+    config.consumer_key        = ENV["CONSUMER_KEY_2"]
+    config.consumer_secret     = ENV["CONSUMER_SECRET_2"]
+    config.access_token        = ENV["ACCESS_TOKEN_2"]
+    config.access_token_secret = ENV["ACCESS_SECRET_2"]
   end
 
   TLC_STORE = YAML::Store.new "twitter_link_chain.store"
@@ -37,7 +44,7 @@ class TwitterLinkChain
     link = true
     while link
       begin
-        tweet = CLIENT.status(id)
+        tweet = CLIENT_ONE.status(id)
         puts "#{tweet.user.screen_name}: #{id}"
         if tweet.urls
           id = tweet.urls.first.expanded_url.to_s[/(\d)+$/].to_i
@@ -53,6 +60,8 @@ class TwitterLinkChain
       :username => tweet.user.screen_name,
       :id => tweet.id,
       :created_at => tweet.created_at,
+      :retweet => tweet.retweet?,
+      :retweet_count => tweet.retweet_count,
       :location => nil
     }
 
