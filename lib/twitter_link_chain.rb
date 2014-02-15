@@ -27,7 +27,7 @@ class TwitterLinkChain
     if stored == nil
       @starting_tweet = starting_tweet
       @traveled_path = [[nil,starting_tweet]]
-      @visited_tweets = [starting_tweet]
+      @visited_tweets = [starting_tweet.id]
       @tweet_queue = [starting_tweet]
     else
       TLC_STORE.transaction do
@@ -68,7 +68,7 @@ class TwitterLinkChain
   end
 
   def visited?(tweet)
-    visited_tweets.include?(tweet)
+    visited_tweets.include?(tweet.id)
   end
 
   def add_to_path(parent, child)
@@ -76,11 +76,13 @@ class TwitterLinkChain
   end
 
   def add_to_arrays(tweet)
-    self.visited_tweets << tweet
+    self.visited_tweets << tweet.id
     self.tweet_queue << tweet
   end
 
   def map_graph
+    puts "Pause to avoid exceeding Twitter API rate limit..."
+    sleep(10)
     while !tweet_queue.empty?
       tweet = tweet_queue.shift
       TLC_STORE.transaction do

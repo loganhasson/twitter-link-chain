@@ -26,7 +26,7 @@ class Tweet
   end
 
   def client_to_use
-    Tweet.count <= 125 ? clients[0] : clients[1]
+    clients[Tweet.count % 2]
   end
 
   def increase_search_count
@@ -37,15 +37,29 @@ class Tweet
     puts "Getting neighbors for: #{username}"
     search_params = {count: 100}
     results = []
+    next_search = nil
 
     increase_search_count
     search = client_to_use.search(id, search_params)
-    results << search.reject {|t| t.user.screen_name == username}
+    sleep(3)
 
-    while next_params = search.send("next_page")
-      increase_search_count
-      search = client_to_use.search(id, search_params.merge(next_params))
-      results << search.reject {|t| t.user.screen_name == username}
+    results << search.reject {|t| t.user.screen_name == username}
+    if search.entries.size > 0
+      max_id = search.entries.last.id - 1
+      next_search = client_to_use.search(id, search_params.merge(max_id: max_id))
+    end
+
+    if next_search
+      while next_search.entries.size > 0
+        results << next_search.reject {|t| t.user.screen_name == username}
+        increase_search_count
+        sleep(3)
+        puts "Getting next page for: #{username}"
+        if next_search.entries.size > 0
+          max_id = next_search.entries.last.id - 1
+          next_search = client_to_use.search(id, search_params.merge(max_id: max_id))
+        end
+      end
     end
 
     results.flatten.map do |tweet|
