@@ -16,6 +16,13 @@ class TwitterLinkChain
     config.access_token_secret = ENV["ACCESS_SECRET_2"]
   end
 
+  CLIENT_THREE = Twitter::REST::Client.new do |config|
+    config.consumer_key        = ENV["CONSUMER_KEY_3"]
+    config.consumer_secret     = ENV["CONSUMER_SECRET_3"]
+    config.access_token        = ENV["ACCESS_TOKEN_3"]
+    config.access_token_secret = ENV["ACCESS_SECRET_3"]
+  end
+
   TLC_STORE = YAML::Store.new "twitter_link_chain.store"
 
   def initialize(starting_tweet)
@@ -81,7 +88,7 @@ class TwitterLinkChain
   end
 
   def map_graph
-    puts "Pause to avoid exceeding Twitter API rate limit..."
+    puts "Pausing to avoid exceeding Twitter API rate limit..."
     sleep(10)
     while !tweet_queue.empty?
       tweet = tweet_queue.shift
@@ -100,6 +107,14 @@ class TwitterLinkChain
         end
       end
     end
+
+    TLC_STORE.transaction do
+      TLC_STORE["stored"] = true
+      TLC_STORE["current_tweet"] = tweet
+      TLC_STORE["traveled_path"] = traveled_path
+      TLC_STORE["visited_tweets"] = visited_tweets
+      TLC_STORE["tweet_queue"] = tweet_queue
+    end
   end
 
   def display_graph(traveled_path)
@@ -114,7 +129,7 @@ class TwitterLinkChain
         end
       end
 
-      save "twitter_link_chain", "png"
+      save "twitter_link_chain"
     end
   end
 

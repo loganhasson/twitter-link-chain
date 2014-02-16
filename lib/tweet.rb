@@ -14,7 +14,7 @@ class Tweet
   end
 
   def self.count=(count)
-    @@count += count
+    @@count = count
   end
 
   def self.count
@@ -22,15 +22,25 @@ class Tweet
   end
 
   def clients
-    [TwitterLinkChain::CLIENT_ONE, TwitterLinkChain::CLIENT_TWO]
+    [
+      TwitterLinkChain::CLIENT_ONE,
+      TwitterLinkChain::CLIENT_TWO,
+      TwitterLinkChain::CLIENT_THREE
+    ]
   end
 
   def client_to_use
-    clients[Tweet.count % 2]
+    clients[Tweet.count]
   end
 
   def increase_search_count
-    Tweet.count += 1
+    if Tweet.count == 0
+      Tweet.count = 1
+    elsif Tweet.count == 1
+      Tweet.count = 2
+    elsif Tweet.count == 2
+      Tweet.count = 0
+    end
   end
 
   def get_neighbors
@@ -41,7 +51,7 @@ class Tweet
 
     increase_search_count
     search = client_to_use.search(id, search_params)
-    sleep(3)
+    sleep(2)
 
     results << search.reject {|t| t.user.screen_name == username}
     if search.entries.size > 0
@@ -53,7 +63,7 @@ class Tweet
       while next_search.entries.size > 0
         results << next_search.reject {|t| t.user.screen_name == username}
         increase_search_count
-        sleep(3)
+        sleep(2)
         puts "Getting next page for: #{username}"
         if next_search.entries.size > 0
           max_id = next_search.entries.last.id - 1

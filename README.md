@@ -2,7 +2,7 @@
 
 ## Step 1
 
-Set up two applications on [Twitter](http://dev.twitter.com) and generate your
+Set up three applications on [Twitter](http://dev.twitter.com) and generate your
 credentials.
 
 ## Step 2
@@ -19,6 +19,11 @@ ENV["CONSUMER_KEY_2"] = ""
 ENV["CONSUMER_SECRET_2"] = ""
 ENV["ACCESS_TOKEN_2"] = ""
 ENV["ACCESS_SECRET_2"] = ""
+
+ENV["CONSUMER_KEY_3"] = ""
+ENV["CONSUMER_SECRET_3"] = ""
+ENV["ACCESS_TOKEN_3"] = ""
+ENV["ACCESS_SECRET_3"] = ""
 ```
 
 ## Step 3
